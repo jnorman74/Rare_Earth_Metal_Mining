@@ -17,7 +17,7 @@ Exploratory data analysis was completed showing the distributions of individual 
 
 The 17 rare earth elements were added together to create the a "rare earth" value in parts per million. 
 
-![TotalRareEarthDist](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Corr_matrix.png)
+![TotalRareEarthDist](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/TotalRareEarthDist.png)
 
 
 The complete dataset had many extra features such as datasources, rock type etc.  These features were mainly dropped for this initial machine learning model. 
