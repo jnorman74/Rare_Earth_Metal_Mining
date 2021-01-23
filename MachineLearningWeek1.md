@@ -31,7 +31,9 @@ A correlation matrix was completed to determine if there were any correlations b
 
 ## Machine Learning Model 
 
-This dataset was fairly sparse with many missing values.  The best model to handle a spare data set without additional feature engineering is a tree-based model. For the XGBoost model, data normalization is not required and was not completed. Encoding was not required as only numerical distributions of numbers were used for features. 
+This dataset was fairly sparse with many missing values.  The best model to handle a spare data set without additional feature engineering is a tree-based model. A XGBoost model was chosen over random forest because XGboost is better able to handle unbalanced datasets.  In this case, it is more important to look for very high concentrations of rare earths which creates the unbalanced training set.  
+
+For the XGBoost model, data normalization is not required and was not completed. Encoding was not required as only numerical distributions of numbers were used for features. 
 
 Two XGBoost (Extreme Gradient Boosting) tree models were attempted.  An XGBoost regression model did not do very well - likely due to the small number of datapoints with high concentrations of rare earths.
 
