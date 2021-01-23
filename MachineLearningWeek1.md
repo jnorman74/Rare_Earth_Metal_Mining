@@ -81,7 +81,7 @@ The positive (blue points) and negative (red points) were plotted on world maps.
 
 ## Comparison with Another DataSet
 
-The USGS has a compilation of known rare earth deposits with latitude and longitude coordinates for 577 points.  These are plotted in purple.  The blue positive points from the above analysis 
+The USGS has a compilation of known rare earth deposits with latitude and longitude coordinates for 577 points.  These are plotted in purple.  The blue positive points are from the above analysis 
 
 ![otherdata](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Other_Data_Map.png)
 
