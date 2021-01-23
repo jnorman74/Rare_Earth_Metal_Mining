@@ -8,7 +8,7 @@ In the latter stages of this project, additional maps and datasets will be inclu
 
 ## Dataset and Exploratory Analysis
 
-The main dataset has about 1 million data points from all over the world and is mostly the results of chemical assaying for minerals.  The datapoints were drill core or similar. The complete dataset had many extra features such as datasources, rock type etc.  These features were mainly dropped for this initial machine learning model. 
+The main dataset has about 1 million data points from all over the world and is mostly the results of chemical assaying for minerals.  The datapoints were drill core or similar. The complete dataset had many extra features such as datasources, rock type etc.  These features were dropped for this initial machine learning model. 
 The focus of the week one analysis was on the concentrations of other elements and if these could be used to predict high concentrations of the rare earth elements.
 
 Exploratory data analysis was completed showing the distributions of individual rare earth elements via histograms.  Note the log distribution. 
@@ -21,7 +21,7 @@ The 17 rare earth elements were added together to create the a "rare earth" valu
 
 ![TotalRareEarthDist](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/TotalRareEarthDist.png)
 
- The dataset of 1 million points did not have complete data for the rare earths.  There were about 100,000 data points with rate earth information present.
+ The dataset of 1 million points did not have complete data for the rare earths.  There were about 100,000 data points with rare earth information present.
 The 100,000 data points with rare earth information present was used for the machine learning model.  The model results were then used on the entire dataset to predict where rare earths might exist. 
 
 A correlation matrix was completed to determine if there were any correlations between the rare earth elements and other elements. The did appear to be some positive and negative correlations amongst other minerals, so the project appears to be worth pursuing. 
