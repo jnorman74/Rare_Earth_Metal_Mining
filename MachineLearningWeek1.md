@@ -4,7 +4,7 @@
 
 Rare earths are a hot topic right now in mining with limited supplies concentrated in China.  Demand is increasing with the rise in complex electronics. The goal of this project is to predict where rare earth minerals are concentrated using the concentration of other minerals.  In typical drill core, rare earth minerals are not commonly assayed due to cost. Therefore, it is useful to correlate rare earth elements with other more commonly assayed components. 
 
-In the latter stages of this project, additional maps and datasets will be included in this analysis - possibly arial magnetic or radioactivity surveys.  This is an even more cost-effective way of finding rare earth minerals, if a correlation exists. 
+In the latter stages of this project, additional maps and datasets will be included in this analysis - possibly aerial magnetic or radioactivity surveys.  This is an even more cost-effective way of finding rare earth minerals, if a correlation exists. 
 
 ## Dataset and Exploratory Analysis
 
