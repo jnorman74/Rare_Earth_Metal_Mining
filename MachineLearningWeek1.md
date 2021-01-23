@@ -24,7 +24,7 @@ The 17 rare earth elements were added together to create the a "rare earth" valu
  The dataset of 1 million points did not have complete data for the rare earths.  There were about 100,000 data points with rare earth information present.
 The 100,000 data points with rare earth information present was used for the machine learning model.  The model results were then used on the entire dataset to predict where rare earths might exist. 
 
-A correlation matrix was completed to determine if there were any correlations between the rare earth elements and other elements. The did appear to be some positive and negative correlations amongst other minerals, so the project appears to be worth pursuing. 
+A correlation matrix was completed to determine if there were any correlations between the rare earth elements and other elements. There did appear to be some positive and negative correlations amongst other minerals, so the project appears to be worth pursuing. 
 
 ![Corr_matrix](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Corr_matrix.png)
 
