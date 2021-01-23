@@ -1,1 +1,32 @@
 #Machine Learning Week 1
+
+## Introduction,methodology and exploratory data analysis
+
+The main dataset has about 1 million data points from all over the world and is mostly the results of chemical assaying for minerals.  The datapoints were drill core or similar. 
+
+Rare earths are a hot topic right now in mining with limited supplies concentrated in China.  Demand is increasing with the rise in complex electronics.  
+
+The goal of this project is to predict where rare earth minerals are concentrated using the concentration of other minerals.  In typical drill core, rare earth minerals would not be commonly assayed due to cost.
+Therefore, it is useful to correlate rare earth elements with other more commonly assayed components. 
+
+Exploratory data analysis was completed showing the distributions of individual rare earth elements via histograms.  Note the log distribution. 
+![rare_earth_dist1](xxx)
+![rare_erath_dist2](xxxx)
+
+The 17 rare earth elements were added together to create the a "rare earth" value in parts per million. 
+![rare_earth_complete_dist](XXX)
+
+
+The complete dataset had many extra features such as datasources, rock type etc.  These features were mainly dropped for this initial machine learning model. 
+The focus of the week one analysis was on the concentrations of other elements and if these could be used to predict high concentrations of the rare earth elements. 
+
+The dataset of 1 million points did not have complete data for the rare earths.  There were about 100,000 data points with rate earth information present.
+The 100,000 data points with rare earth information present was used for the machine learning model.  The model results were then used on the entire dataset to predict where rare earths might exist. 
+
+A correlation matrix was completed to determine if there were any correlations between the rare earth elements and other elements.  
+The did appear to be some positive and negative correlations amongst other minerals, so the project appeared to be worth pursuing. 
+
+![corr_matrix](XXX)
+
+
+## Machine Learning Model 
