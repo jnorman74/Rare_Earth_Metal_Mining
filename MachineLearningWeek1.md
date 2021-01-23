@@ -67,6 +67,8 @@ The more complete list of features was captured using the XGboost built in featu
 
 ![FullFeatures](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Features.png)
 
+## Mapping
+
 The model was then used to determine where high concentrations of rare earths might exist - the entire dataset of a million points was used.  There were approximately 6000 positives points and 1 million negatives.  Subtracting off the original existing rare earth assays with higher than 500 ppm rare earths (about 1000), this is a find of another 5000 datapoints that predict high concentrations of rare earths.  
 
 The positive (blue points) and negative (red points) were plotted on world maps. 
@@ -74,6 +76,12 @@ The positive (blue points) and negative (red points) were plotted on world maps.
 ![negative](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Negative.png)
 
 ![positive](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Positive.png)
+
+## Comparison with Another DataSet
+
+The USGS has a compilation of known rare earth deposits with latitude and longitude coordinates for 577 points.  These are plotted in purple.  The blue positive points from the above analysis 
+
+![otherdata](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Other_Data_Map.png)
 
 
 ## Next steps
