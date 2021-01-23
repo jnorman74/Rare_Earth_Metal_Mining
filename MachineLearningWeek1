@@ -11,11 +11,7 @@ Therefore, it is useful to correlate rare earth elements with other more commonl
 
 Exploratory data analysis was completed showing the distributions of individual rare earth elements via histograms.  Note the log distribution. 
 
-![picture1](https://github.com/JaniceBgithub/Final/blob/main/rareearthdist1.png)
-
-
-
-![rareearthdist1](https://github.com/JaniceBgithub/Final/blob/main/rareearthdist1.png)
+![rare_earth_dist1](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/rareearthdist1.png)
 
 ![rare_earth_dist2](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/rare_earth_dist2.png)
 
@@ -37,3 +33,61 @@ The did appear to be some positive and negative correlations amongst other miner
 
 
 ## Machine Learning Model 
+
+This dataset was fairly sparse with many missing values.  The best model to handle a spare data set without additional feature engineering is a tree-based model. For the XGBoost model, data normalization is not required and was not completed.  
+
+Two XGBoost (Extreme Gradient Boosting) tree models were attempted.  An XGBoost regression model did not do very well - likely due to the small number of datapoints with high concentrations of rare earths.
+
+A XGBoost classification model was then attempted. The rare earth data was divided into zero and ones based on rare earth concentration.  Initially a cut-off of 100 ppm was used and yielded good results.  As the cut-off increased, the model became even more accurate and the important features even more pronounced.  A cut-off of 500 was usesd in the last interation with good results. At this cut-off, there were about 1000 positive datapoints and 99,000 negative datapoints.  An accuracy score of 99.5% was achieved with a cut-off of 500 ppm.
+
+A shap plot was used to determine feature importance. 
+
+![shap_plot](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Shap.png)
+
+There is a strong positive correlation between high concentrations of rare earth elements and: 
+- Thorium
+- Niobium
+- Hafnium
+- Lead, metallic
+- Gallium
+- Zirconium
+- Strontium
+- Barium
+- Lead oxide
+- Cobalt
+- Manganese oxide
+
+There is a strong negative correlation between high correlations of rare earth elements and: 
+- Aluminum oxides
+- Chrome
+- Sodium oxides
+- Vanadium
+- Uranium
+- Rubidium
+- LOI (ie hydrated or weathered ores)
+
+The model was then used to determine where high concentrations of rare earths might exist - the entire dataset of a million points was used.  There were approximately 6000 positives points and 1 million negatives.  Subtracting off the original assays with higher than 500 ppm rare earths (about 1000), this is a find of another 5000 datapoints that predict rare earths.  
+
+The positive and negative finds were plotted on world maps. 
+
+![negative](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Negative.png)
+
+![positive](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/Positive.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
