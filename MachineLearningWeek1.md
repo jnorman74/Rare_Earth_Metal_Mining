@@ -86,9 +86,13 @@ The USGS has a compilation of known rare earth deposits with latitude and longit
 
 ## Next steps
 
-Next week, additional data will be included in the machine learning model - rock types, age of the rocks, formation mechanism etc to determine if a more geological approach to finding rare earths will work.  
+Next week, additional data will be included in the machine learning model - rock types, age of the rocks, formation mechanism etc to determine if a geological approach to finding rare earths will work.  
 
 Additional work could also be done on re-running the analysis with specific rare earth minerals, rather than grouping them together. 
+
+If possible, other datasets will be added to the analysis from geological aerial surveys.
+
+The database will also be tied into the model next week.
 
 
 
