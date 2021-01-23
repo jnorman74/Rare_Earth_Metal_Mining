@@ -10,7 +10,7 @@ The goal of this project is to predict where rare earth minerals are concentrate
 Therefore, it is useful to correlate rare earth elements with other more commonly assayed components. 
 
 Exploratory data analysis was completed showing the distributions of individual rare earth elements via histograms.  Note the log distribution. 
-!(rare_earth_dist1)[https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/rareearthdist1.png]
+![rare_earth_dist1](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/rareearthdist1.png)
 ![rare_erath_dist2](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/janice/Graphics/rare_earth_dist2.png)
 
 The 17 rare earth elements were added together to create the a "rare earth" value in parts per million. 
