@@ -1,0 +1,800 @@
+rec_id,deptype,depname,country,status,latitude,longitude
+1,carb,Adiounedj,Mali,Occurrence,20.18333333,0.066666667
+2,carb,Agate Mountain,Namibia,Occurrence,-18.45,12.08333333
+3,carb,Aley,Canada,,56.45,-123.7333333
+4,carb,Amma (Amba) Dongar (Ambadungar),India,Active F producer (2002),,
+5,carb,Anezrouf,Mali,Occurrence,20.06666667,0.05
+6,carb,"Argor (South Bluff Creek, James Bay, Alpha-B)",Canada,,50.75,-81.01666667
+7,carb,Bailundo,Angola,Occurrence,-12.15,15.95
+8,carb,Barra do Itapirapua,Brazil,Occurrence,-24.68333333,-49.21666667
+9,carb,Bayan Obo (Baotou),China,Current producer,41.75,109.9666667
+10,carb,Bear Lodge Mountains (southern),United States,"Large, low-grade resource of REE-Th",44.48333333,-104.45
+11,carb,Bearpaw Mountains (Rocky Boy),United States,Occurrence,48.16666667,-109.7333333
+12,carb,Big Spruce Lake,Canada,Occurrence,63.55,-115.9166667
+13,carb,Bonga,Angola,Occurrence,-4.266666667,13.96666667
+14,carb,Bou Naga,Mauritania,Past small producer?,20.8,-13.7
+15,carb,Capuia,Angola,Occurrence,-11.9,16.25
+16,carb,Carb Lake,Canada,Occurrence,54.8,-92
+17,carb,Cerro Manomo,Bolivia,Occurrence,-15.5,-60.71666667
+18,carb,Changit,Russia,Occurrence,70.2,100.1
+19,carb,Chernigovskii (Novopoltavskii),Ukraine,Occurrence,47.23333333,36.25
+20,carb,Chiriguelo,Paraguay,Occurrence,-22.65,-55.95
+21,carb,Coola,Angola,Occurrence,-12.51666667,15.26666667
+22,carb,Dalkainle,Somalia,Occurrence,10.4,43.26666667
+23,carb,Deep Creek,United States,Occurrence,42.05,-119.95
+24,carb,Eldor Carbonatite Complex,Canada,Occurrence,56.6,-68.41666667
+25,carb,Elet'ozerskii (Elet'ozero),Russia,Occurrence,66.06666667,31.95
+26,carb,Elk Creek,United States,,40.3,-96.2
+27,carb,Eureka,Namibia,Potential resource,-21.96666667,15.31666667
+28,carb,Fen,Norway,Past Nb-Fe producer; REE occurrence,59.28333333,9.283333333
+29,carb,Francon Quarry - Orleans (Eastview),Canada,Occurrence,45.46666667,-75.55
+30,carb,Gatineau,Canada,,,
+31,carb,Gem Park,United States,"Past prod of vrm, Ni, Ag",38.26666667,-105.55
+32,carb,Glenover,South Africa,Past P producer,-24.68333333,27.35
+33,carb,"Gornoe Ozero (Gornoozerskii, Ozrnyi)",Russia,Occurrence,59.93333333,136.8833333
+34,carb,Goudini,South Africa,,-25.13333333,26.2
+35,carb,Hicks Dome,United States,Potential resource,37.6,-88.4
+36,carb,"Iron Hill (Powderhorn, Cebolla Creek)",United States,Ti resource/ prospect,38.25,-107.05
+37,carb,Itanhaem,Brazil,Occurrence,-24.13333333,-46.8
+38,carb,Kalkfeld (Etaneno),Namibia,Th-REE occurrence,-20.8,16.11666667
+39,carb,Kapfrugwa (Gungwa),Zimbabwe,,-16.46666667,32.15
+40,carb,Keshya,Zambia,Occurrence,-15.88333333,28.45
+41,carb,Khamna (Khamninskii),Russia,Occurrence,59.71666667,136.4166667
+42,carb,Khanneshin,Afghanistan,Occurrence,30.46666667,63.58333333
+43,carb,Kirumba,Congo (Zaire),Occurrence,-1.083333333,29.3
+44,carb,Kizilçaören,Turkey,Potential resource,39.63333333,31.38333333
+45,carb,Kugda,Russia,Occurrence,70.71666667,103.4666667
+46,carb,Lesnaya Varaka,Russia,Occurrence,67.38333333,33.06666667
+47,carb,Lofdal-Bergville,Namibia,Occurrence,-20.35,14.75
+48,carb,Lolekek,Uganda,Occurrence,1.75,34.45
+49,carb,Longonjo (Mt. Chibilundo),Angola,Occurrence,-12.85,15.25
+50,carb,Lugin Gol,Mongolia,Active exploration (1999),42.95,108.5666667
+51,carb,"Lupongola (Lupulonga, Chitado)",Angola,Occurrence,-17.18333333,13.7
+52,carb,Makonde,Tanzania,Occurrence,-10.05,34.51666667
+53,carb,Marinkas Quellen (Marinkas Kwela),Namibia,Occurrence,-28.16666667,17.41666667
+54,carb,Matchinskii,Kyrgyzstan,Occurrence,39.53333333,70.78333333
+55,carb,Mato Preto,Brazil,Past F producer,-24.75,-49.2
+56,carb,Megiscane Lake,Canada,Occurrence,48.56666667,-75.6
+57,carb,Miaoya,China,Potential resource,32.25,110.2
+58,carb,Monte Verde,Angola,Occurrence,-12.18333333,15.03333333
+59,carb,Mountain Pass,United States,Current producer,35.48333333,-115.5333333
+60,carb,"Mushgai Khudag (Mushgia Khudag, Mushugai Khuduk, Mushugai-Hudag)",Mongolia,Occurrence,44.33333333,104
+61,carb,Namo-Vara,USSR,,,
+62,carb,Narssarssuaq (Narssarssuk),Greenland,,61.18333333,-45.41666667
+63,carb,Ngualla,Tanzania,Occurrence,-7.7,32.83333333
+64,carb,Nizhnesayanskii,Russia,Occurrence?,53.51666667,100.5166667
+65,carb,"Nkombwa Hill (Nkumbwa, Nkumba)",Zambia,Occurrence,-10.15,32.85
+66,carb,Nolan's Bore,Australia,Occurrence,-22.58333333,133.2333333
+67,carb,"Nooitgedacht (Gelukshoek, Nooitgedagt)",South Africa,Occurrence,-25.05,27.5
+68,carb,North Fork area,United States,,45.4,-114
+69,carb,Nsengwa,Malawi,Occurrence,-15.41666667,34.71666667
+70,carb,Okorusu Complex,Namibia,F producer; Potential REE resource,-20.03333333,16.76666667
+71,carb,"Ondurukurme Complex (Ondumakorume, Kameelberg)",Namibia,"REE, P, Sr, Nb resource",-20.76666667,16.25
+72,carb,Palabora (Phalaborwa),South Africa,Potential byproduct REE recovery,-23.98333333,31.11666667
+73,carb,Qaqarssuk,Greenland,Occurrence,65.38333333,-51.7
+74,carb,Ravalli County,United States,Occurrence,45.5,-113.3333333
+75,carb,Rock Canyon Creek (Candy),Canada,Occurrence,,
+76,carb,Salitre I and II,Brazil,Ti resource; REE occurrence,-19.03333333,-46.78333333
+77,carb,Salmon Bay,United States,Occurrence,56.32,-133.1683333
+78,carb,Sandkopsdrif (Zandkops Drift),South Africa,Occurrence,-30.88333333,17.95
+79,carb,"Sangu Carbonatite Group, Karema Depression (includes Ikola, Ikambwa, Middle carbonatites)",Tanzania,Occurrence,-6.8,30.51666667
+80,carb,Sarfartoq,Greenland,Nb resource; P-REE occurrence,66.5,-51.25
+81,carb,Sarnu,India,Occurrence,,
+82,carb,Siilinjarvi,Finland,"P, LIME, PHLOG producer",63.08333333,27.66666667
+83,carb,Sokolo,Kenya,,-0.466666667,34.38333333
+84,carb,Songwe Scarp,Tanzania,,-9.35,33.26666667
+85,carb,Soroy,Norway,,,
+86,carb,Springer (Lavergne),Canada,Occurrence,46.45,-79.95
+87,carb,St. Honoré,Canada,Nb producer; Potential REE resource,48.55,-71.06666667
+88,carb,Stjernoy,Norway,Producer of nepheline syenite,,
+89,carb,"Tamazert (Oued Tamazert, Tamazeght, Bou Agrao)",Morocco,Occurrence,32.56666667,-4.65
+90,carb,Taohulashan,China,Potential resource,,
+91,carb,Tikshozerskii,Russia,Occurrence,66.28333333,31.66666667
+92,carb,Toisuk - Bol'shaya Zhidaya,USSR,,,
+93,carb,Tundulu,Malawi,Occurrence,-15.53333333,35.8
+94,carb,Uyaynah,United Arab Emirates,Occurrence,,
+95,carb,"Venturi Township (Township 107, Spanish River)",Canada,Occurrence,46.58333333,-81.71666667
+96,carb,Verkhnesayanskii,Russia,Occurrence,53.45,100.4166667
+97,carb,Virulundo,Angola,Occurrence,-16.3,12.93333333
+98,carb,Vishnevye Mountains (Ilmenogorskii-Vishnevogorskii),Russia,Occurrence,55.98333333,60.56666667
+99,carb,Vuoriyarvi,Russia,Occurrence,6.8,30.11666667
+100,carb,Wajiertage (Wajiltag),China,Potential resource,39.5,79
+101,carb,"Weishan (Chisan, Xishan, 1010)",China,Active REE Producer,34.75,117.2
+102,carb,Welgevonden,South Africa,Occurrence,-25.43333333,27.43333333
+103,carb,Westcriffe,United States,,,
+104,carb,Wet Mountains,United States,Occurrence,38.2,-105.4
+105,carb,Yangdun,China,,27.83333333,118.5
+106,carb,Yinachange (Yenachang),China,,25.5,102
+107,carb,Zijingshan,China,,38.33333333,110.8333333
+108,carb-re,Angico dos Dias,Brazil,Occurrence,,
+109,carb-re,Anitápolis,Brazil,P producer; REE occurrence,-27.8,-49.08333333
+110,carb-re,Araxa (Barreiro),Brazil,Nb-P producer; REE-Ba occurrence,-19.63333333,-46.93333333
+111,carb-re,Bingo (Bingu),Congo (Zaire),Occurrence,0.6,29.28333333
+112,carb-re,"Bukusu Complex (Busumbu, Busumu, Busuku)",Uganda,Past P producer,0.883333333,34.26666667
+113,carb-re,Buru,Kenya,Occurrence,-0.183333333,35.16666667
+114,carb-re,Caiapo,Brazil,Occurrence,-16,-51.75
+115,carb-re,Cargill,Canada,P potential; REE occurrence,49.3,-82.81666667
+116,carb-re,Catalão I,Brazil,Nb-P producer;  minor byproducer of REE (Ce); Ti resource,-18.25,-47.78333333
+117,carb-re,Catalão II,Brazil,Nb resource,-18.03333333,-47.86666667
+118,carb-re,Cerro Impacto,Venezuela,Potential resource,6,-65.16666667
+119,carb-re,Chilwa Island,Malawi,Occurrence,-15.33333333,35.6
+120,carb-re,Cone Negosa (Negoza),Mozambique,,-15.53333333,31.26666667
+121,carb-re,Goias,Brazil,Occurrence,,
+122,carb-re,Kaluwe,Zambia,P-REE occurrence,-15.18333333,30.01666667
+123,carb-re,Kangankunde,Malawi,REE-Sr resource,-15.13333333,34.91666667
+124,carb-re,Kapiri,Malawi,,-15.28333333,34.91666667
+125,carb-re,Karonge (Gakara),Burundi,Past small producer REE,-3.5,29.45
+126,carb-re,Luicuisse (Lucuisse),Mozambique,,-12.38333333,36.18333333
+127,carb-re,Mabounie,Gabon,Nb resource; potential REE resource,-0.7,11.7
+128,carb-re,Magnet Cove,United States,"Past small producer rut, mag",34.45,-92.86666667
+129,carb-re,Maicuru,Brazil,,-0.466666667,-54.21666667
+130,carb-re,Maraconai,Brazil,,-0.533333333,-53.4
+131,carb-re,Martison Lake,Canada,Active P prospect,50.31666667,-83.4
+132,carb-re,"Matum (Marum, Mutum)",Brazil,Occurrence,-1.883333333,-57.41666667
+133,carb-re,Mbeya (Panda Hill),Tanzania,Nb-P resource,-9,33.23333333
+134,carb-re,Morro Dos Seis Lagos (Sao Gabriel da Cachoeira),Brazil,Potential Nb-REE resource,0.633333333,-66.4
+135,carb-re,Mount Weld,Australia,REE-P resource,-28.86666667,122.55
+136,carb-re,Mrima Hill,Kenya,"REE-Nb resource, past producer",-4.416666667,-39.25
+137,carb-re,Oka,Canada,Past Nb producer; Potential REE resource,45.5,-74
+138,carb-re,Ruri Complex,Kenya,Potential resource,-0.533333333,34.33333333
+139,carb-re,Sallanlatvi (Sallanlatvinskii),Russia,Occurrence,66.95,29.16666667
+140,carb-re,Sebl'yavr Carbonatite Complex (Seblyavr),Russia,Occurrence,68.71666667,32.13333333
+141,carb-re,Serra Negra,Brazil,Ti resource w/ potential byproduct REE,-18.91666667,-46.83333333
+142,carb-re,Sokli,Finland,P resource,67.75,29.25
+143,carb-re,Sukulu,Uganda,Past P producer,0.65,34.15
+144,carb-re,Tapira,Brazil,"Ti-P producer; Potential for Nb, REE, vrm",-19.9,-46.86666667
+145,carb-re,"Tchivira (Chivara, Quicuco)",Angola,Occurrence,-14.31666667,13.88333333
+146,carb-re,Tomtor,Russia,REE-Nb resource,71,116.5833333
+147,carb-re,Twareietau,Guyana,Occurrence,2,-57
+148,carb-re,Wigu Hill,Tanzania,REE resource,-7.433333333,37.56666667
+149,carb-re,Yangibana,Australia,Potential resource,-23.88333333,116.1666667
+150,alk-ig,Akitskii,Russia,Occurrence,56.01666667,110.3666667
+151,alk-ig,Ablah,Saudi Arabia,,20.08333333,41.91666667
+152,alk-ig,Ambatofinandrahana igneous complex,Madagascar,"Past producer, minor",-20.45,46.95
+153,alk-ig,Ampasindava area-  Bezavona complex,Madagascar,Occurrence,-13.8,48.08333333
+154,alk-ig,Amis Complex,Namibia,Occurrence,-21.16666667,14.5
+155,alk-ig,Arenopolis (Areianopolis),Brazil,Occurrence,-16.36666667,-51.53333333
+156,alk-ig,Azov Sea Coast Dikes,Ukraine,Occurrence,47.18333333,36.56666667
+157,alk-ig,Baerzhe,China,"REE, Zr, Nb Be resource",,
+158,alk-ig,Bakhuis Mountains - K/3 Deposit,Surinam,Occurrence,4.433333333,-57.06666667
+159,alk-ig,Bancroft-Haliburton  area,Canada,,,
+160,alk-ig,Bokan Mountain (Ross-Adams),United States,"Potential resource REE, Past Prod. U",54.91666667,-132.1333333
+161,alk-ig,Bomin-Khara,Mongolia,Occurrence,,
+162,alk-ig,Brandberg Complex,Namibia,,-21.13333333,14.55
+163,alk-ig,Brockman,Australia,Potential resource,-18.31666667,127.7666667
+164,alk-ig,Bunduk,Armenia,Occurrence,40.75,44.75
+165,alk-ig,Burpalinskii (Burpala),Russia,Occurrence,56.55,110.75
+166,alk-ig,Caballo Mountains,United States,Occurrence,32.53333333,-100.2833333
+167,alk-ig,Cerro Bamba,Bolivia,Occurrence,,
+168,alk-ig,Chilembwe (Petauke),Zambia,Occurrence,-13.98333333,31.68333333
+169,alk-ig,Churuata,Venezuela,Occurrence,3.45,-65.46666667
+170,alk-ig,Cida,China,Potential producer,27,102.0833333
+171,alk-ig,Coldwell complex,Canada,Occurrence,48.78333333,-86.5
+172,alk-ig,Cornudas Mtns - Diablo Plateau (Wind Mtn.),United States,Occurrence,31.79166667,-105.3833333
+173,alk-ig,Dara-Pioz,Tajikistan,Potential resource,39.41666667,70.73333333
+174,alk-ig,Dong Pao,Vietnam,Prospect,22.28333333,103.5666667
+175,alk-ig,Dora Bay,United States,Prospect,55.23333333,-132.2166667
+176,alk-ig,Eden Lake,Canada,Occurrence,56.63333333,-100.25
+177,alk-ig,Elisenvaara (Elisenvaarskii; includes Kaivimyaki/Kaivomaki and Raivimyaki/ Raivimaki),Russia,Active P mine,61.41666667,29.91666667
+178,alk-ig,"Eljozero (Elet'ozero, Elet'ozerskii)",Russia,Occurrence,66.06666667,31.95
+179,alk-ig,Fanshan (Fangshan),China,Active P mine,40.36666667,115.2166667
+180,alk-ig,Flowers Bay,Canada,Occurrence,55.66666667,-59.83333333
+181,alk-ig,Gardiner complex,Greenland,Occurrence,68.61666667,-33.15
+182,alk-ig,Ghurayyah,Saudi Arabia,,27.91666667,35.8
+183,alk-ig,Gremyakha-Vyrmes,Russia,Occurrence,68.63333333,32.46666667
+184,alk-ig,Guelb Zeilaga,Mauritania,Occurrence,19,-13.3
+185,alk-ig,Gzarta-Hudag,Mongolia,Occurrence,,
+186,alk-ig,"Igaliko complex - Motzfeldt center, N & S Qoroq, Igdlerfigssalik",Greenland,Nb-Ta resource,61.13333333,-45.16666667
+187,alk-ig,Ilimaussaq,Greenland,"Zr, REE resource",63,-51.2
+188,alk-ig,Ilomba,Malawi,Occurrence,-9.516666667,33.18333333
+189,alk-ig,Itremo,Madagascar,,-20.58333333,46.63333333
+190,alk-ig,Jabal Archenu,Libya,,22.26666667,24.71666667
+191,alk-ig,Jabal Hamra',Saudi Arabia,Occurrence,26.06666667,38.6
+192,alk-ig,Jabal Sa'id (Jabal Sayid),Saudi Arabia,Occurrence,23.81666667,40.93333333
+193,alk-ig,Jabal Tawlah,Saudi Arabia,Occurrence,28.23333333,35.38333333
+194,alk-ig,Jacupiranga,Brazil,"P-Lime producer;  REE, Ni  Occurrence",-24.7,-48.13333333
+195,alk-ig,"Jarud Qi, no. 801",China,Occurrence,44.61666667,120.9666667
+196,alk-ig,Junguni,Malawi,Occurrence,-15.03333333,35.28333333
+197,alk-ig,Kamloops,Canada,Occurrence,50.66666667,-120.0666667
+198,alk-ig,Karaganskii,Kyrgyzstan,Occurrence,39.75,70
+199,alk-ig,Karsakpai,Kazakhstan,Occurrence,47.88333333,66.41666667
+200,alk-ig,Khaldzan-Buregtey,Mongolia,Occurrence,48.41666667,91.96666667
+201,alk-ig,Khan Bogdo,Mongolia,Occurrence,43.2,107.2
+202,alk-ig,Khibina (Khibiny),Russia,"P, NEPH producer",67.71666667,33.78333333
+203,alk-ig,Kipawa Lake,Canada,Potential resource,46.8,-78.5
+204,alk-ig,Kodal,Norway,Potential resource,59.25,10.16666667
+205,alk-ig,Konder,Russia,Occurrence,57.5,134.4166667
+206,alk-ig,Korgeredaba,Russia,Occurrence,50.08333333,97.25
+207,alk-ig,Korsun-Novomirgorodskii pluton margin,Ukraine,Occurrence,48.23333333,31.28333333
+208,alk-ig,Kovdor Complex (Kovdorskoe),Russia,Occurrence,67.56666667,30.4
+209,alk-ig,Kpong area,Ghana,Occurrence,6.1,0.05
+210,alk-ig,"Kribi  (Mont des Eléphants, Mont de Rocher du Loup)",Cameroon,Occurrence,2.95,9.916666667
+211,alk-ig,Kutessai-II,Kyrgyzstan,Active mine (1998),42.66666667,76.16666667
+212,alk-ig,Kyzyl-Ompul,Kyrgyzstan,Occurrence,42.35,75.91666667
+213,alk-ig,Lackner Lake (Nemegos),Canada,Nb-P potential,47.75,-83.16666667
+214,alk-ig,Langesundsfjord District (Larvik),Norway,Occurrence,59,9.75
+215,alk-ig,Laramie Anorthosite Complex,United States,Occurrence,,
+216,alk-ig,Lavrent'evskii,Russia,Occurrence,67.26666667,37.01666667
+217,alk-ig,Letitia Lake - Mann 1,Canada,Occurrence,54.23333333,-62.38333333
+218,alk-ig,"Los Archipelago (Los Islands, Iles de Los)",Guinea,Occurrence,9.466666667,-13.8
+219,alk-ig,Lovozero,Russia,Nb producer w/ byproduct REE from loparite,67.78333333,34.75
+220,alk-ig,Lutala (Serra da Neve),Angola,,-13.71666667,13.16666667
+221,alk-ig,Malotersyanskii,Ukraine,Occurrence,48.33333333,35.65
+222,alk-ig,Maoniuping,China,Active REE Producer,,
+223,alk-ig,Meponda,Mozambique,Occurrence,-13.45,34.9
+224,alk-ig,Mianning,China,Producer,28.55,102.1833333
+225,alk-ig,Miask,Russia,,,
+226,alk-ig,Mount Prindle (Roy Creek),United States,,65.48333333,-147.1
+227,alk-ig,Mount St. Hilaire,Canada,Occurrence,45.55,-73.16666667
+228,alk-ig,Mutum,Brazil,Occurrence,1.883333333,-57.41666667
+229,alk-ig,Nejoio,Angola,Occurrence,-13.66666667,13.23333333
+230,alk-ig,Nemegosenda Lake,Canada,Nb Resource w/ potential for byproduct REE,48,-83.08333333
+231,alk-ig,Norra Kärr,Sweden,Occurrence?,,
+232,alk-ig,Nosy Komba,Madagascar,Occurrence,-13.46666667,48.33333333
+233,alk-ig,Pajarito Mountain,United States,Potential resource,33.23333333,-105.4333333
+234,alk-ig,"Pilansberg Complex (Pilanesberg, Pilaan's berg)",South Africa,,-25.23333333,27.06666667
+235,alk-ig,Pocos de Caldas (Morro do Ferro),Brazil,"Past producer U, Zr, Bauxite",-21.91666667,-46.56666667
+236,alk-ig,Ponoiskii,Russia,Occurrence?,67.01666667,39.2
+237,alk-ig,Qiganlaing,China,P-REE resource,,
+238,alk-ig,Red Wine,Canada,Occurrence,54.08333333,-62.58333333
+239,alk-ig,Rexspar (Birch Island),Canada,Occurrence,51.56666667,-119.9
+240,alk-ig,Saima,China,"REE, U, Th, Nb resource",40.98333333,124.2
+241,alk-ig,Sakhariokskii (Sacharijok),Russia,Occurrence,67.66666667,36.2
+242,alk-ig,Seligdar,Russia,P resource,58.4,125.3
+243,alk-ig,Shallow Lake,Canada,Occurrence?,,
+244,alk-ig,Shartolgoi,Mongolia,Occurrence,49.05,92.75
+245,alk-ig,Shvanidzorskii,Armenia,Occurrence,39,46.38333333
+246,alk-ig,Sierra de Tamaulipas,Mexico,Occurrence,23.2,-98.4
+247,alk-ig,Songwe Syenite (includes Ilomba and Ulindi intrusions),Malawi,,-9.55,33.26666667
+248,alk-ig,Srednetatarskii (Zaangarskii),Russia,Occurrence,58.4,93.58333333
+249,alk-ig,Srednevorogovskii,Russia,Occurrence,61.25,90.03333333
+250,alk-ig,Strange Lake (Lac Brisson),Canada,Potential resource,56.3,-64.11666667
+251,alk-ig,Sucunduri,Brazil,Occurrence,-8.533333333,-59.46666667
+252,alk-ig,"Sugar Loaf (Mumbwa North, NW Mumbwa)",Zambia,Occurrence,-14.75,26.83333333
+253,alk-ig,Synnyr,Russia,Occurrence,56.91666667,111.3333333
+254,alk-ig,Tezhsar,Armenia,Occurrence,40.68333333,44.65
+255,alk-ig,Thor Lake (Blachford Lake),Canada,Potential. Byproduct of Be mining,62.1,-112.6666667
+256,alk-ig,Tiguesmat el Akhdar (Tigsmat),Mauritania,Occurrence,24.85,-8.183333333
+257,alk-ig,Tleumbetskii,Kazakhstan,Occurrence,50.76666667,77.03333333
+258,alk-ig,Tommot,Russia,Occurrence,58.38333333,125.2166667
+259,alk-ig,Toongi  (Dubbo),Australia,Prospect,-32.43333333,148.6
+260,alk-ig,Topsails,Canada,Occurrence,48.75,-57
+261,alk-ig,Tsakhirt,Mongolia,Occurrence,48.55,91.93333333
+262,alk-ig,Ulaan Tolgoi,Mongolia,Occurrence,49.53333333,93.01666667
+263,alk-ig,Ulkanshoe,Russia,,56.31666667,134.8166667
+264,alk-ig,Umm al Birak,Saudi Arabia,,23.36666667,39.21666667
+265,alk-ig,Vedi-Azatskii,Armenia,Occurrence,39.98333333,45
+266,alk-ig,Wangu Hill,South Africa,Occurrence,-28.8,31.33333333
+267,alk-ig,"Western Keiv (Rovozero, Platongora, Yumperuaiv)",Russia,Produces amazonite; potential Zr-REE deposit?,67.78333333,36.5
+268,alk-ig,White Tundra,Russia,Occurrence,67.46666667,35.83333333
+269,alk-ig,Wind Mountain (see Cornudas Mtns),United States,Occurrence,32.03333333,-105.5333333
+270,alk-ig,Yastrebets,Ukraine,Occurrence,51.23333333,28.85
+271,alk-ig,Yousuobao,China,P-REE resource,,
+272,hyd-feox,Mineville dumps,United States,Past Fe producer; REE resource,44.06666667,-73.48333333
+273,hyd-feox,Olympic Dam,Australia,REO not recovered; potential byproduct,-30.45,136.8833333
+274,hyd-feox,Pea Ridge,United States,Potential resource,,
+275,hyd-feox,Scrub Oaks,United States,Byproduct,,
+276,oth-ig-aff,Alice Springs,Australia,Potential resource,-23.06666667,134.55
+277,oth-ig-aff,Atlin-Ruffner,Canada,Occurrence,45.01666667,-78.18333333
+278,oth-ig-aff,Azovske,Ukraine,Potential producer,45.58333333,34.56666667
+279,oth-ig-aff,Big Creek,United States,Occurrence,,
+280,oth-ig-aff,Cooglegong,Australia,"Past producer, minor",-21.5,119.4
+281,oth-ig-aff,Crescent Peak,United States,Occurrence,,
+282,oth-ig-aff,Denegama,Sri Lanka,Occurrence,6.716666667,80.71666667
+283,oth-ig-aff,Diamond Creek,United States,Prospect,45.25,-113.9
+284,oth-ig-aff,Guilherme Group,Mozambique,Occurrence,-14.4,40.35
+285,oth-ig-aff,Guposhan,China,Occurrence,,
+286,oth-ig-aff,Hall Mountain Group,United States,Occurrence,48.98333333,-116.4333333
+287,oth-ig-aff,Huashan,China,Occurrence,,
+288,oth-ig-aff,Ile (Namatacatue),Mozambique,Occurrence,-16.03333333,37.08333333
+289,oth-ig-aff,Kasagwe,Burundi,Occurrence,-3.416666667,29.41666667
+290,oth-ig-aff,Little Friar Mountain (Massie),United States,Small Past Producer,37.76666667,-79.1
+291,oth-ig-aff,"Llano County (Williams Mine, others)",United States,Small Past Producer,30.66916667,-98.47277778
+292,oth-ig-aff,M'Tomoti,Mozambique,Occurrence,-15.5,38.31666667
+293,oth-ig-aff,Macotaia,Mozambique,Occurrence,-15.41666667,38.41666667
+294,oth-ig-aff,MacDonald Pegmatite,Canada,Occurrence,,
+295,oth-ig-aff,Mazurivske,Ukraine,Potential producer,,
+296,oth-ig-aff,McKeel Lake,Canada,Occurrence,45.48416667,-66.18194444
+297,oth-ig-aff,Mineral X,United States,Occurrence,35.11666667,-114.0666667
+298,oth-ig-aff,Nipissis,Canada,Occurrence,51,-65.25
+299,oth-ig-aff,Nisikkatch-Hoidas Lakes,Canada,Occurrence,59.9379,-107.8012
+300,oth-ig-aff,Nuwara Eliya,Sri Lanka,Occurrence,7.3,80.76666667
+301,oth-ig-aff,Odegarden,Norway,,58.95,9.633333333
+302,oth-ig-aff,Petaca District,United States,Occurrence,36.5,-106.05
+303,oth-ig-aff,Pitinga,Brazil,Potential. byproduct,-0.75,-60.11666667
+304,oth-ig-aff,Ploskaya Mountain,Russia,,,
+305,oth-ig-aff,Pomona Tile Company,United States,Occurrence,34.33333333,-115.55
+306,oth-ig-aff,Signal district,United States,Occurrence,34.53333333,-113.55
+307,oth-ig-aff,South Platte District,United States,,,
+308,oth-ig-aff,Teldeniya,Sri Lanka,Occurrence,7.3,80.76666667
+309,oth-ig-aff,Telixtlahuaca,Mexico,,17.3,-96.9
+310,oth-ig-aff,Tie Siding,United States,Occurrence,,
+311,oth-ig-aff,Valle Fertil,Argentina,Occurrence,-31,-67.5
+312,oth-ig-aff,Wolf Mountain,United States,,62.33333333,-161.4833333
+313,oth-ig-aff,Xihuashan,China,Producer,25.43333333,114.3333333
+314,ion-ad,Chenxian County,China,Active producer,25.8,113.0333333
+315,ion-ad,Dingnan,China,Producer,24.7797,115.056
+316,ion-ad,Gannan Mine,China,,,
+317,ion-ad,Guangdong,China,,,
+318,ion-ad,Guidong,China,,,
+319,ion-ad,Jianghua area,China,,,
+320,ion-ad,Lanshan area,China,,,
+321,ion-ad,Linwu,China,,,
+322,ion-ad,Longchuan Heping,China,Producer,,
+323,ion-ad,Longnan (Zudong?),China,Producer,24.9,114.8
+324,ion-ad,Pingyuan,China,Producer,,
+325,ion-ad,Qingyuan,China,Producer,23.7,113.0333333
+326,ion-ad,Rucheng area,China,,,
+327,ion-ad,Ruyuan,China,Producer,24.76666667,113.2666667
+328,ion-ad,Tongsalin,China,Producer,,
+329,ion-ad,Unnamed,China,,,
+330,ion-ad,"Xunwun (Xunwu, Xun wa, Heling, Nanqiao)",China,,24.96666667,115.6333333
+331,ion-ad,Zhangding (Longyan),China,,25.13333333,117.0333333
+332,ion-ad,Zixing,China,,,
+333,met,Anomalnoe,Russia,,54.06666667,157.4
+334,met,Bastnäs,Sweden,,,
+335,met,Bordvedaga,Norway,,,
+336,met,Guangshui,China,Occurrence,,
+337,met,Indian Creek District,United States,Occurrence,45.41666667,-114.1666667
+338,met,Ingichke,Uzbekistan,Occurrence,,
+339,met,Lemhi Pass,United States,Occurrence,44.95,-113.6166667
+340,met,Mineral Hill District,United States,Occurrence,45.46666667,-114.2833333
+341,met,Monumental Summit,United States,Occurrence,44.9,-115.2666667
+342,met,Music Valley,United States,Occurrence,34.01666667,-115.95
+343,met,Nam Xe North (Mau Xe North),Vietnam,Prospect,22.48333333,103.5
+344,met,Nam Xe South (Mau Xe North),Vietnam,Prospect,22.48333333,103.5
+345,met,Sheep Creek,United States,Past small producer,45.5,-114.3333333
+346,met,Shengtieling,China,Occurrence,,
+347,met,Steenkampskraal (Steentampskraal),South Africa,Active producer?,,
+348,met,Wuhe,China,Occurrence,23.46666667,112.3333333
+349,placer-sh,Agnes Waters (Rocky Point),Australia,Occurrence,-24.21666667,151.9
+350,placer-sh,Aguas Dulces,Uruguay,Occurrence,-34.25,-53.71666667
+351,placer-sh,Alcobaça,Brazil,Past byproduct producer,-17.25,-39.23333333
+352,placer-sh,Allied Eneabba,Australia,Past byproduct producer,-29.9,115.2666667
+353,placer-sh,Alwaya (Alwaye),India,,10.11666667,76.33333333
+354,placer-sh,Amity,Australia,Past byproduct producer,-27.4,153.4333333
+355,placer-sh,"Anchieta (Parati, Imbiri, Pipa de Viho, Mãebá)",Brazil,Past producer?,-20.76666667,-40.58333333
+356,placer-sh,Angoche,Mozambique,Prospect (1988),,
+357,placer-sh,Antete area,Madagascar,Past producer,,
+358,placer-sh,Aracruz,Brazil,Past byproduct producer (1989),-19.96666667,-40.15
+359,placer-sh,Arimoor,Nigeria,Past byproduct producer (1988),,
+360,placer-sh,Australind,Australia,,-33.23333333,115.75
+361,placer-sh,Ayer Kuning,Malaysia,Byproduct producer (1988),,
+362,placer-sh,Badarmokam,Bangladesh,,,
+363,placer-sh,Banda Aceh,Indonesia,Occurrence,5.583333333,95.33333333
+364,placer-sh,Banka Island (Bangka),Indonesia,? Poss byproduct of Sn mining,-2.25,106
+365,placer-sh,Baraghoriapara,Bangladesh,,,
+366,placer-sh,Barrytown,New Zealand,Under development (1988),-42.23333333,171.3166667
+367,placer-sh,Batu Gajah,Malaysia,Byproduct producer (1988),,
+368,placer-sh,Bayside (Yoganup North),Australia,Exhausted (1998),,
+369,placer-sh,Beenup (Scott River),Australia,Production ceased 4/99,,
+370,placer-sh,"Beihei (Beihai, Peibhai?) District",China,Producer byproduct monazite,21.48333333,109.1
+371,placer-sh,Belitung (Billiton),Indonesia,Past small byproduct producer,-2.833333333,107.9166667
+372,placer-sh,Berhala Island,Indonesia,Occurrence,,
+373,placer-sh,Beruwala,Sri Lanka,,6.483333333,79.98333333
+374,placer-sh,Bilugyun and Kyaikkami Beach,Burma,Occurrence,16.33333333,97.45
+375,placer-sh,Birchfield,New Zealand,,,
+376,placer-sh,Birthday Gift (Murray Basin),Australia,HM Prospect,,
+377,placer-sh,Boulougne,United States,Past producer,,
+378,placer-sh,Bowen (Abbot Point),Australia,Prospect,-19.88333333,148.0833333
+379,placer-sh,Brejo Grande - Pacatuba,Brazil,,-10.5,-36.43333333
+380,placer-sh,Bridge Hill Ridge,Australia,REE Occurrence,-32.41666667,152.4666667
+381,placer-sh,Bruce Bay,New Zealand,,,
+382,placer-sh,Brunswick-Altamaha,United States,Occurrence,31.31666667,-81.46666667
+383,placer-sh,"Buena (Buena Norte, Buena Sul)",Brazil,Producer byproduct monazite,-21.51666667,-41.08333333
+384,placer-sh,Bukit Duabelas,Indonesia,Occurrence,-1.95,102.6666667
+385,placer-sh,Bunbury,Australia,Past byproduct producer,-33.31666667,115.6333333
+386,placer-sh,Busselton East,Australia,Prospect,-33.66666667,115.3833333
+387,placer-sh,Byfield (Bayfield),Australia,Prospect,-22.8,150.7666667
+388,placer-sh,Cabin Bluff,United States,,,
+389,placer-sh,Cable Sands,Australia,Past byproduct producer,,
+390,placer-sh,Cam Hoa,Vietnam,,18.21666667,105.8666667
+391,placer-sh,Cam Nhuong,Vietnam,,18.3,105.8
+392,placer-sh,Camaratuba,Brazil,,-6.9,-35
+393,placer-sh,Capel,Australia,Past byproduct producer,-33.55,115.55
+394,placer-sh,Capel (North Capel),Australia,Past byproduct producer; N. part of deposit exhausted (1987),-33.51666667,115.5833333
+395,placer-sh,Capel South,Australia,Past byproduct producer,-33.61666667,115.45
+396,placer-sh,Cat Khanh,Vietnam,Current producer,13.5,105.2
+397,placer-sh,Cataby,Australia,Past byproduct producer,-30.71666667,115.5166667
+398,placer-sh,Changan,China,Possible resource,,
+399,placer-sh,"Chatrapur (Chartrapur, Orissa Sands Complex/OSCOM)",India,Producer byproduct monazite,19.3,84.95
+400,placer-sh,Chavara (Quilon)- IREL,India,Producer byproduct monazite,8.95,76.5
+401,placer-sh,Chavara (Quilon)- KMML,India,Byproduct producer,9,76.5
+402,placer-sh,Cheyne Bay,Australia,Past small produer,-34.56666667,118.75
+403,placer-sh,Chingshankangchow,Taiwan,Occurrence,,
+404,placer-sh,Chumphon,Thailand,Byproduct producer (1988),10.5,99.16666667
+405,placer-sh,Coleroon - Sirkazhi,India,Occurrence,11.25,79.75
+406,placer-sh,"Congolone (Moma-Congolone, Ancoche)",Mozambique,Byproduct producer,-16.01666667,40.08333333
+407,placer-sh,Coojarloo,Australia,Past byproduct producer,-30.66666667,115.3333333
+408,placer-sh,Cooloola,Australia,Past byproduct producer,-26.08333333,153.1166667
+409,placer-sh,Coromandel Peninsula,New Zealand,Occurrence,-37,175.8666667
+410,placer-sh,Cox's Bazaar,Bangladesh,Active prospect (1988),,
+411,placer-sh,Cumberland Island,United States,Occurrence,30.9,-81.45
+412,placer-sh,"Cumuruxatiba (Curumuxatiba, Comoxatiba)",Brazil,Producer byproduct monazite (1989),-18.36666667,-40.7
+413,placer-sh,Currumbin,Australia,Past byproduct producer,-28.13333333,153.4833333
+414,placer-sh,Curtis Island,Australia,Occurrence,-23.63333333,151.1666667
+415,placer-sh,Da Nang,Vietnam,,,
+416,placer-sh,Dardanup,Australia,Under development,-33.4,115.75
+417,placer-sh,Dianbai,China,Producer byproduct monazite,21.5,111.0166667
+418,placer-sh,Dongara,Australia,Prospect,-29.25,114.9333333
+419,placer-sh,Dong Xuan,Vietnam,,,
+420,placer-sh,Durness (Tea Garden),Australia,Small producer (1988),-32.66666667,152.15
+421,placer-sh,Eneabba,Australia,Past byproduct producer,-29.78333333,115.2166667
+422,placer-sh,Eneabba North,Australia,Current producer,-29.61666667,115.3333333
+423,placer-sh,Eneabba South,Australia,Current producer,,
+424,placer-sh,Eneabba West,Australia,Current producer,-29.91666667,115.25
+425,placer-sh,Evans Head- Yuraygir National Park area,Australia,,-29.08333333,153.4333333
+426,placer-sh,Fakiraghona,Bangladesh,,21.55,91.95
+427,placer-sh,Fakirahata,Bangladesh,,,
+428,placer-sh,Folkston,United States,Past producer,,
+429,placer-sh,Foreshore Beach - Moheshkhali Island,Bangladesh,,,
+430,placer-sh,Fort Dauphine,Madagascar,Past producer,-25,47
+431,placer-sh,Foulun,Taiwan,Occurrence,24.68333333,121.75
+432,placer-sh,Fraser Island (Frazer Island),Australia,Past byproduct producer,-25.36666667,153.1166667
+433,placer-sh,Fullerton,Australia,Current producer,-32.83333333,151.7833333
+434,placer-sh,Gingin,Australia,Occurrence,-31.4,115.9333333
+435,placer-sh,Gladstone Mainland,Australia,,-23.83333333,151.25
+436,placer-sh,Glogova-Sisesti District,Romania,Occurrence,44.91666667,22.96666667
+437,placer-sh,Gold Coast,Australia,Past byproduct producer,-28,153.4166667
+438,placer-sh,Gordon,Australia,Closed 1999,,
+439,placer-sh,Green Cove Springs,United States,Active mine (1999); Past byproduct monazite producer,29.86666667,-81.71666667
+440,placer-sh,"Guarapari (Praia do Vaz, Vila Velha, Rastinga, Canto do Riacho, Praia de Diogo)",Brazil,Current(?) Producer byproduct monazite,-20.8,-40.5
+441,placer-sh,Gympie,Australia,Past byproduct producer,-26.18333333,152.6666667
+442,placer-sh,Haifengtao,Taiwan,Occurrence,23.71666667,120.15
+443,placer-sh,Haikang,China,Producer byproduct monazite,20.93333333,110.0666667
+444,placer-sh,Haishanchow,Taiwan,Occurrence,23.31666667,120.1
+445,placer-sh,Ham Tan,Vietnam,,10.7,107.5833333
+446,placer-sh,Hambantota,Sri Lanka,Occurrence,,
+447,placer-sh,Hanstholm,Denmark,Occurrence,,
+448,placer-sh,Harrington,Australia,Past producer,-31.86666667,152.7
+449,placer-sh,Hawks Nest,Australia,Past byproduct producer,-32.66666667,152.1666667
+450,placer-sh,Higgins,Australia,Occurrence,-33.58333333,115.6
+451,placer-sh,Hilton Head Island,United States,Potential resource,32.2,-80.73333333
+452,placer-sh,Hoanak (Nalbila),Bangladesh,,,
+453,placer-sh,Hokitika North,New Zealand,,,
+454,placer-sh,Hokitika South,New Zealand,,,
+455,placer-sh,Huong Dien,Vietnam,Occurrence,16.65,107.4666667
+456,placer-sh,Hunts Beach,New Zealand,,,
+457,placer-sh,Hwajinpo,"Korea, Republic of",,38.41666667,128.5
+458,placer-sh,Ibis-Alpha,Australia,In development (1998),,
+459,placer-sh,Imuruan Bay,Philippines,Occurrence,10.75,119.3333333
+460,placer-sh,Induruwa (Kaikawela and Polkotuwa Beaches),Sri Lanka,,,
+461,placer-sh,Inani,Bangladesh,,21.15,92.06666667
+462,placer-sh,"Itapemirim (Boa Vista, Siri)",Brazil,Producer byproduct monazite (1989),-21.16666667,-40.91666667
+463,placer-sh,Jangardup,Australia,Current HM producer; REE byproduct potential,-34.36666667,115.6166667
+464,placer-sh,Jurien Bay,Australia,Current producer,-30.31666667,115.1666667
+465,placer-sh,Kabengelwa,Congo (Zaire),Occurrence,,
+466,placer-sh,Kaikawela,Sri Lanka,Small producer,6.366666667,80
+467,placer-sh,Kalutara,Sri Lanka,Past pilot production,6.583333333,79.98333333
+468,placer-sh,Karamea North,New Zealand,Occurrence,,
+469,placer-sh,Karamea South,New Zealand,Occurrence,,
+470,placer-sh,Ke Sung,Vietnam,Occurrence,16.5,107.5833333
+471,placer-sh,Kelani River,Sri Lanka,Occurrence,7,79.83333333
+472,placer-sh,Kembajan,Indonesia,Occurrence,0.55,110.4166667
+473,placer-sh,Kerr-McGee deposit,United States,Occurrence,36.11666667,-88.18333333
+474,placer-sh,King Sound,Australia,Prospect (1988),-16.83333333,123.4166667
+475,placer-sh,Kingscliff (Cudgen),Australia,Small producer (1988),-28.26666667,153.5666667
+476,placer-sh,Kirra,Australia,Small producer (1988),-29,153.5333333
+477,placer-sh,Kokkilai,Sri Lanka,,8.983333333,80.95
+478,placer-sh,Koombana Bay,Australia,Past producer byproduct monazite,-33.31666667,115.65
+479,placer-sh,Kudiraimozhi (Kudraimouzi),India,Potential resource,,
+480,placer-sh,Kudremala Point (Kudremalai),Sri Lanka,Occurrence,8.966666667,79.9
+481,placer-sh,Kulwin (Koolwin),Australia,HM Prospect,-35.08333333,142.75
+482,placer-sh,Kusipo,"Korea, Republic of",,30.33333333,126.5
+483,placer-sh,Kutubdai Island,Bangladesh,,,
+484,placer-sh,Kutubjum,Bangladesh,,,
+485,placer-sh,Ky Khang,Vietnam,Small producer,18.2,106.0833333
+486,placer-sh,Ky Ninh,Vietnam,Occurrence?,18,106.1666667
+487,placer-sh,Long Hai,Vietnam,,10.41666667,107.1666667
+488,placer-sh,Ludlow,Australia,Occurrence,,
+489,placer-sh,Manavalakuruchi,India,Producer byproduct monazite,8.2,77.33333333
+490,placer-sh,Massidon (Murray Basin),Australia,Potential resource,-33.08333333,141.25
+491,placer-sh,Mashabuto,Congo (Zaire),,,
+492,placer-sh,Matara,Sri Lanka,Occurrence,5.95,80.53333333
+493,placer-sh,Mataraca,Brazil,Prospect,-6.5,-35
+494,placer-sh,Matarbari Island,Bangladesh,,21.7,91.88333333
+495,placer-sh,Maxville,United States,Occurrence,29.91666667,-81.75
+496,placer-sh,Mi Tho,Vietnam,Active Producer?,13.75,109.25
+497,placer-sh,Minninup,Australia,Producer (1988),-33.46666667,115.5666667
+498,placer-sh,Moebase (Moebane),Mozambique,,-17.01666667,38.48333333
+499,placer-sh,Moguiquel,Mozambique,,-15.38333333,40.26666667
+500,placer-sh,Mogwembo,Sierra Leone,Occurrence,,
+501,placer-sh,Mokonui,New Zealand,,,
+502,placer-sh,Momi River,Indonesia,,,
+503,placer-sh,Moreton Island,Australia,Past small producer,-27.18333333,153.4
+504,placer-sh,Mullaittivu,Sri Lanka,,9.25,80.8
+505,placer-sh,Munmorah,Australia,Past byproduct producer,-33.2,151.5833333
+506,placer-sh,Nabiac,Australia,Past byproduct producer,-32,152.5
+507,placer-sh,Nanyang (Nangang),China,Producer byproduct monazite,,
+508,placer-sh,Nanshanhai,China,Producer byproduct monazite,21.53333333,111.6166667
+509,placer-sh,Narngula (Geraldton),Australia,Producer byproduct monazite,,
+510,placer-sh,Naracoopa,Australia,,-39.91666667,144.1
+511,placer-sh,Natchez Trace deposit,United States,Occurrence,35.83333333,-88.2
+512,placer-sh,Nayaru,Sri Lanka,Occurrence,9.133333333,80.88333333
+513,placer-sh,Newcastle,Australia,Current Producer,-32.91666667,151.75
+514,placer-sh,Newrybar,Australia,,-28.76666667,153.5666667
+515,placer-sh,Nha Trang,Vietnam,,,
+516,placer-sh,Nijhum Dwip,Bangladesh,,,
+517,placer-sh,Nile Delta / Rosetta,Egypt,Small past producer?,31,31
+518,placer-sh,North Camden (Kerr-McGee deposit),United States,Occurrence,36.11666667,-88.18333333
+519,placer-sh,North Stradbroke Island - Dunwich,Australia,Past byproduct producer,,
+520,placer-sh,North Stradbroke,Australia,Past producer byproduct monazite,-27.58333333,153.45
+521,placer-sh,North Stradbroke  - Yarraman,Australia,Past producer (1966-1972); planned future prod,-27.58333333,153.45
+522,placer-sh,North Waroona (North Watoona),Australia,,,
+523,placer-sh,Northeast Dunes,Brazil,Prospects,,
+524,placer-sh,Okarito - Five Mile Beach,New Zealand,,,
+525,placer-sh,Old Hickory (Stony Creek),United States,"Active Mine (1999), no REE prod",34.20583333,-105.7297222
+526,placer-sh,Palghat,India,Occurrence,,
+527,placer-sh,Panirchara,Bangladesh,,,
+528,placer-sh,Paranagua,Brazil,,,
+529,placer-sh,Pebane district,Madagascar,Producer byproduct monazite,-17.15,37.83333333
+530,placer-sh,Peitungshanchow,Taiwan,Occurrence,,
+531,placer-sh,Phan Thiet,Vietnam,,10.63333333,108.0833333
+532,placer-sh,Phuket,Thailand,Byproduct producer (1988),,
+533,placer-sh,Pi-In,"Korea, Republic of",Past producer (1988),,
+534,placer-sh,Pinkenba,Australia,Past byproduct producer,-27.43333333,153.1166667
+535,placer-sh,Pitinga,Brazil,,,
+536,placer-sh,Polkotuwa,Sri Lanka,Small producer,6.483333333,79.98333333
+537,placer-sh,Port Clinton,Australia,,,
+538,placer-sh,Porto Seguro District,Brazil,"Past byproduct producer, Current?",-16.43333333,-39.08333333
+539,placer-sh,"Prachuap Khiri Khan (Prajuab Kirikhan, Prachuab Kiri Khan)",Thailand,Intermittent byproduct producer,11.81666667,99.81666667
+540,placer-sh,Prado area,Brazil,"Past byproduct producer, Current?",-17.4,-39.2
+541,placer-sh,Prowse,Australia,Past producer,,
+542,placer-sh,Pudavakattu,Sri Lanka,Occurrence,8.883333333,81.08333333
+543,placer-sh,Pulmoddai,Sri Lanka,Byproduct producer,8.95,80.95
+544,placer-sh,Puri,India,,19.75,85.41666667
+545,placer-sh,Putaichow,Taiwan,Occurrence,,
+546,placer-sh,Quang Ngan,Vietnam,Occurrence,16.63333333,107.4166667
+547,placer-sh,Quelemane,Mozambique,Occurrence?,-17.88333333,36.85
+548,placer-sh,"Qui Nhon (includes Hoi Loch, Bai Bang, Vinh Cuu, Bo Ngua)",Vietnam,,,
+549,placer-sh,Rainbow Beach,Australia,Past byproduct producer,-25.9,153.0833333
+550,placer-sh,Ranong,Thailand,Byproduct producer (1988),,
+551,placer-sh,Richards Bay,South Africa,Byproduct producer,-28.7,32.16666667
+552,placer-sh,Ross,New Zealand,,,
+553,placer-sh,Sai-Lao (Quoinghi),China,Producer byproduct mon,19.25,110.6
+554,placer-sh,Saltwater Lagoon,New Zealand,,,
+555,placer-sh,Sandalwood,Australia,Current HM producer; REE byproduct potential,-34.95,140.1333333
+556,placer-sh,Sao Joao de Barra (Barra Sao Joao),Brazil,Producer byproduct mon?,-21.38333333,-41.05
+557,placer-sh,Sao Mateus,Brazil,Occurrence,-19.63333333,-40.88333333
+558,placer-sh,Se Petiba,Brazil,Occurrence,-22.53333333,-44.76666667
+559,placer-sh,Serra (Jacareipe),Brazil,Occurrence,-20.16666667,-39.33333333
+560,placer-sh,Shilkhali,Bangladesh,,,
+561,placer-sh,Singkep,Indonesia,Past producer of by-product mon,-0.5,104.4166667
+562,placer-sh,Slupsk,Poland,Occurrence,,
+563,placer-sh,Soledad,United States,,,
+564,placer-sh,South Ham Tam,Vietnam,Occurrence,,
+565,placer-sh,Stockton (Stockton Bight),Australia,Current Producer but no mon production recently,-32.83333333,151.85
+566,placer-sh,Stratham South,Australia,Past producer,-33.46666667,115.5833333
+567,placer-sh,Subrang,Bangladesh,,,
+568,placer-sh,Takua Pa,Thailand,,8.883333333,98.35
+569,placer-sh,Teknaf,Bangladesh,,20.86666667,92.3
+570,placer-sh,Tingtouechow,Taiwan,,,
+571,placer-sh,Tirrukkovil (Tirukkovil),Sri Lanka,Occurrence,7.116666667,81.85
+572,placer-sh,Tolagnaro,Madagascar,Under development (1989),-25.03333333,47
+573,placer-sh,"Tomago (Newcastle, Clybucca)",Australia,Past byproduct producer,-32.8,151.7166667
+574,placer-sh,Toscanini,Namibia,Occurrence,-20.83333333,13.41666667
+575,placer-sh,"Trail Ridge (Highland Trail Ridge, Starke Trail Ridge)",United States,Occurrence,30.03333333,-82.03333333
+576,placer-sh,Trivandrum,India,Occurrence,8.483333333,76.91666667
+577,placer-sh,Tungshanchow,Taiwan,,23.56666667,120.0666667
+578,placer-sh,Tutunup,Australia,Occurrence,,
+579,placer-sh,Ussangoda,Sri Lanka,,6.766666667,80.38333333
+580,placer-sh,Vero Beach,United States,Past small producer byproduct mon,,
+581,placer-sh,Viney Creek,Australia,Current Producer but no mon prod recently,-32.61666667,152.1166667
+582,placer-sh,Vinh Cam Ranh,Vietnam,,11.88333333,109.1666667
+583,placer-sh,Vinh Giat,Vietnam,,,
+584,placer-sh,Vinh Mi (Vinh My),Vietnam,Occurrence,16.33333333,107.75
+585,placer-sh,Vitoria District,Brazil,Active producer (1985),-18.36666667,-40.7
+586,placer-sh,Vohibarika area,Madagascar,Past producer,-16.28333333,48.98333333
+587,placer-sh,Vung Tau,Vietnam,,,
+588,placer-sh,Waisantingchow,Taiwan,Occurrence,,
+589,placer-sh,Wangtzeliaochow,Taiwan,Occurrence,,
+590,placer-sh,Wangyehchow,Taiwan,Occurrence,,
+591,placer-sh,Waroona (Hamel),Australia,Closed 1997,-32.83333333,115.9166667
+592,placer-sh,Waroona (Hamel),Australia,Closed 1992?,-32.85,115.9166667
+593,placer-sh,Waroona (Hamel),Australia,Closed 1997,,
+594,placer-sh,Waroona (Hamel),Australia,Past byproduct producer,,
+595,placer-sh,Wemen,Australia,Active (2001),-34.91666667,142.75
+596,placer-sh,"Westport (inclueds Nine Mile Beach, Carters Beach)",New Zealand,Prospect,-41.1,171.4
+597,placer-sh,Williamstown,Australia,Prospect,,
+598,placer-sh,"WIM 150 (Drung South, CRA, Horsham)",Australia,Potential resource,-36.71666667,142.2
+599,placer-sh,Wonnerup,Australia,,-33.61666667,115.4166667
+600,placer-sh,Wonnerup Beach,Australia,Past producer,-33.61666667,115.4166667
+601,placer-sh,Woornack,Australia,Potential resource,,
+602,placer-sh,Wuzhaung (Baoding),China,Producer byproduct monazite,18.71666667,110.3666667
+603,placer-sh,Xinglong,China,Producer byproduct monazite,,
+604,placer-sh,Xitou,China,Producer byproduct monazite,,
+605,placer-sh,Yangjiang (Nanshanhai),China,Producer byproduct monazite,21.6244,111.7194
+606,placer-sh,Yarloop,Australia,Current Producer,-32.96666667,115.9
+607,placer-sh,Yarraman,Australia,Current Producer?,,
+608,placer-sh,Yoganup (Yoganup Central),Australia,Current Producer?,-33.65,115.55
+609,placer-sh,Yoganup Extended,Australia,Past byproduct producer,-33.6,115.6666667
+610,placer-sh,Yoganup North (Boyanup),Australia,Past byproduct producer; Closed 1998,-33.48333333,115.7333333
+611,placer-sh,Yulee,United States,,,
+612,placer-sh,Zhanjiang district,China,Producer byproduct monazite,21.2,110.4666667
+613,placer-al,Atlantida,Uruguay,,-35.2,-55.8
+614,placer-al,Ban Yun,Thailand,,,
+615,placer-al,Bang Lin,Thailand,,,
+616,placer-al,Batang Berjuntai area,Malaysia,Producer byproduct mon/xen,3.333333333,101.5
+617,placer-al,Batang Padang,Malaysia,Producer byproduct mon/xen,,
+618,placer-al,Bates Hole area,United States,Occurrence,,
+619,placer-al,Bear Valley,United States,Small past producer,44.35,-115.4
+620,placer-al,Beihei District,China,,21.48333333,109.0833333
+621,placer-al,Bidor Malaya Mine,Malaysia,Producer,,
+622,placer-al,Big Creek,United States,Past producer,44.46666667,-115.9833333
+623,placer-al,Carolina monazite belt,United States,,,
+624,placer-al,Chamberlin District,United States,Occurrence,45.31666667,-115.1166667
+625,placer-al,Chao Fa Mine,Thailand,,,
+626,placer-al,Chumphon,Thailand,Producer byproduct mon/xen,,
+627,placer-al,Circle,United States,,65.5,-144.75
+628,placer-al,Dianbai,China,,21.55,111.2666667
+629,placer-al,El Dorado Creek area,United States,,65.93333333,-166.2
+630,placer-al,Fortymile,United States,,64.33333333,-142
+631,placer-al,Gambang area,Malaysia,Producer byproduct mon/xen,,
+632,placer-al,Gold Fork-Little Valley,United States,Occurrence,44.68333333,-115.9666667
+633,placer-al,Heinze Basin,Burma,Occurrence,14.6,98.05
+634,placer-al,Horse Creek (Aiken County),United States,Past producer of monazite,33.5,-81.9
+635,placer-al,Hot Springs,United States,,65.16666667,-151
+636,placer-al,Iditarod,United States,,62.5,-158.5
+637,placer-al,Janghowon,"Korea, Republic of",,37.16666667,127.5
+638,placer-al,Jos Plateau,Nigeria,,9.5,8
+639,placer-al,Kanbauk,Burma,Occurrence,14.6,98.05
+640,placer-al,Kinta Kellas Batu Gajah Mine,Malaysia,Producer,,
+641,placer-al,Kinta Valley (Lahat),Malaysia,Producer byproduct mon/xen,4.5,101.1666667
+642,placer-al,Kluan Tong Mine,Thailand,Producer byproduct mon/xen,,
+643,placer-al,Kuala Lumpur area,Malaysia,Producer byproduct mon/xen,3,101.75
+644,placer-al,Kuwn-Thong,Thailand,,,
+645,placer-al,Kwangsangun,"Korea, Republic of",,35.16666667,126.8333333
+646,placer-al,Kyan Chaung,Burma,Occurrence,13.5,98.33333333
+647,placer-al,Lahat Mine,Malaysia,Occurrence,,
+648,placer-al,Lamawpyin-Shwedu Chaung,Burma,Occurrence,,
+649,placer-al,Layan,Thailand,Producer byproduct mon/xen,,
+650,placer-al,Long Valley,United States,Past producer,,
+651,placer-al,Madianhe,China,,21.55,111.2666667
+652,placer-al,Main Khao,Thailand,Producer byproduct mon/xen,,
+653,placer-al,Mageng (Magang),China,Occurrence?,,
+654,placer-al,Marion,United States,Past byproduct producer,,
+655,placer-al,McGrath,United States,,62.75,-155
+656,placer-al,Mit-Thawi,Thailand,Producer byproduct mon/xen,,
+657,placer-al,Momi River,Indonesia,Occurrence,,
+658,placer-al,Mogok,Burma,Occurrence,22.90833333,96.5
+659,placer-al,Mong Kung,Burma,Occurrence,21.61666667,97.525
+660,placer-al,Muong Hum,Vietnam,,,
+661,placer-al,Namdaecheon River (Muju area),"Korea, Republic of",,35,126.6666667
+662,placer-al,Oak Grove,United States,Occurrence,36.38333333,-88.16666667
+663,placer-al,Pearsol Creek,United States,,44.51666667,-116.0833333
+664,placer-al,Pitinga,Brazil,Potential. byproduct,-0.75,-60.11666667
+665,placer-al,Port Clarence,United States,,65.66666667,-166.5
+666,placer-al,Qinzhou (Qinxian),China,Producer byproduct monazite,21.98333333,108.6
+667,placer-al,Ramey Meadows,United States,Occurrence,45.26666667,-115.1833333
+668,placer-al,Ranchi-Purulia,India,Byproduct REE from Ti mining,23.41666667,86
+669,placer-al,Rio Tercero,Argentina,Occurrence,-32.03333333,-64.2
+670,placer-al,Ruby Meadows,United States,,64.41666667,-154.3333333
+671,placer-al,Ruby Meadows,United States,,,
+672,placer-al,Sai-Chon,Thailand,,,
+673,placer-al,Sakagyi,Burma,Occurrence,22.93277778,96.21666667
+674,placer-al,Sao Gonçalo do Sapucai area,Brazil,Under development (1989),-21.93333333,-45.66666667
+675,placer-al,Silica Mine,United States,"Producer, but does not recover REO",36.03333333,-88.18333333
+676,placer-al,Sin-Krasom,Thailand,,,
+677,placer-al,Soun-Miyang,"Korea, Republic of",,36.91666667,127.3333333
+678,placer-al,Southern Malayan Batu Gajah Mine,Malaysia,Producer,,
+679,placer-al,Thawi-Thap,Thailand,Producer byproduct monazite,,
+680,placer-al,Tolovana,United States,,65.5,-148.1666667
+681,placer-al,Tronoh Mines,Malaysia,Producer,,
+682,placer-al,Wan Hapalam,Burma,Occurrence,21.53333333,97.3
+683,placer-al,Warm Spring Creek placers,United States,Occurrence,,
+684,placer-al,Witchit,Thailand,,,
+685,placer-al,Xintou,China,,,
+686,placer-al,Xun Jiang,China,Prospect (1993),23.5,110.8333333
+687,placer-al,Yadanabon Mine,Burma,,11.28472222,99.28333333
+688,placer-al,Yongsanpo,"Korea, Republic of",,34.91666667,126.6666667
+689,placer-al,Yueyang,China,Byproduct producer?,29.38333333,113.1
+690,placer-al,Zhanjiang,China,,21.2,110.4666667
+691,placer-unc,Bangalore,India,Occurrence,,
+692,placer-unc,Careacu,Brazil,Occurrence,-22.03333333,-45.7
+693,placer-unc,Chilka Lake,India,,19.76666667,85.33333333
+694,placer-unc,Cordislandia,Brazil,Occurrence,,
+695,placer-unc,Cuxhaven,Germany,,,
+696,placer-unc,Gaya,India,Occurrence,24.78333333,85
+697,placer-unc,Hazaribagh,India,Occurrence,,
+698,placer-unc,Kembajan Mountains,Indonesia,Occurrence,,
+699,placer-unc,Koraput,India,Occurrence,,
+700,placer-unc,Sabarkantha,India,Occurrence,,
+701,placer-unc,Sanbagoma,Mauritania,,15.58333333,-11.95
+702,placer-unc,Sinoe County,Liberia,,5.333333333,-8.666666667
+703,placer-unc,Visakhapatnam,India,Occurrence,17.7,83.3
+704,placer-unc,Tin fields,Rwanda,,,
+705,placer-pal,Archie Lake,Canada,Occurrence,,
+706,placer-pal,Baja Guainia area,Colombia,Occurrence,,
+707,placer-pal,Bald Mountain,United States,Potential resource,41.29467,-105.322
+708,placer-pal,Elliott Lake (Blind River)- Denison,Canada,Past U producer with byproduct REE,46.48333333,-82.53333333
+709,placer-pal,Elliott Lake (Blind River)- Quirke-Panel,Canada,Past U producer with byproduct REE,46.5,-82.63333333
+710,placer-pal,Elliott Lake (Blind River)- Stanleigh,Canada,U producer; Potential REE resource,46.4,-82.63333333
+711,placer-pal,Grass Creek area,United States,Occurrence,,
+712,placer-pal,McLean Lake,Canada,Occurrence,,
+713,placer-pal,Oak Grove,United States,Occurrence,36.38333333,-88.16666667
+714,placer-pal,Onemile Creek area,United States,Occurrence,,
+715,placer-pal,Wheeler River,Canada,,,
+716,placer-pal,Witwatersrand,South Africa,,,
+717,placer-pal,Williams Lake- Maw zone,Canada,Occurrence,,
+718,phos,Abu Tartar,Egypt,Active P mine,25.43333333,30.03333333
+719,phos,Blackfoot Bridge,United States,Occurrence,42.11666667,-111.5166667
+720,phos,Bofal-Loubboira (Wadi Guellouar),Mauritania,Occurrence,16.41666667,-13.75
+721,phos,Caldwell Canyon,United States,Occurrence,42.73333333,-111.3666667
+722,phos,Champ,United States,Occurrence,42.66666667,-111.2666667
+723,phos,Conda,United States,,42.73333333,-111.5333333
+724,phos,Dnieprodzerzhinsk,Ukraine,Producer,,
+725,phos,Gay and South Forty,United States,Occurrence,43.05,-112.1166667
+726,phos,Henry,United States,Past byproduct producer?,42.88333333,-111.4666667
+727,phos,Husky,United States,Occurrence,42.7,-111.25
+728,phos,Kunyang,China,Occurrence,24.66666667,102.5833333
+729,phos,Maybe Canyon (Maybie),United States,Past byproduct producer?,42.75,-111.3
+730,phos,Mountain Fuel,United States,Occurrence,42.65,-111.2833333
+731,phos,North Henry,United States,Occurrence,42.9,-111.5
+732,phos,Schevchenko,Kazakhstan,Byproduct producer of Eu (1995),,
+733,phos,Smoky Canyon,United States,Byproduct producer?,42.71666667,-111.1333333
+734,phos,Swan Lake Gulch,United States,Potential producer,42.63333333,-111.4166667
+735,phos,Trail Creek,United States,Occurrence,42.73333333,-111.4166667
+736,phos,Wooley Valley,United States,Past byproduct producer?,42.83333333,-111.4
+737,phos,Xinhua,China,,26.7,105.75
+738,phos,Zhijin,China,Occurrence,26.68333333,105.6166667
+739,oth-baux,Lake Innes,Australia,Occurrence,-31.5,152.8833333
+740,oth-baux,Xiuwen,China,Occurrence,26.85,106.5833333
+741,oth-f,Rexspar (Birch Island),Canada,,,
+742,oth-f,Buffalo Fluorspar,South Africa,Occurrence,-24.5,28.5
+743,oth-f,Encantada-Buena Vista area,Mexico,Producer of F,28.5,-102.5
+744,oth-f,Fatima area,Mexico,Small past producer of Sr and RE?,28.55,-102.5166667
+745,oth-f,Gallinas Mountains,United States,Very small past producer,34.2,-105.7333333
+746,oth-f,Naboomspruit,South Africa,Small byproduct producer,,
+747,oth-f,Snowbird,United States,Occurrence,46.78405,-114.77014
+748,oth-pb,Korsnas Mine,Finland,Past byproduct producer (1988),,
+749,oth-pb,M'Fouati,Congo (Zaire),Occurrence,,
+750,oth-u,Agnew Lake,Canada,,46.42919,-81.6309
+751,oth-u,Bancroft-Haliburton  area,Canada,,45.5,-77.5
+752,oth-u,Denison,Canada,U producer; Potential  REE resource,,
+753,oth-u,Eagle Creek,United States,,64.7,-162.7666667
+754,oth-u,Mary Kathleen,Australia,Past Producer w/ reserves,-20.73333333,140.0166667
+755,oth-u,McArthur River,Canada,Occurrence,57.75,-106
+756,oth-u,Port Pirie (Radium Hill),Australia,Potential producer,-33.2,138
+757,oth-u,Wheeler River,Canada,Occurrence,,
+758,oth-unc,Alto Ligonha,Mozambique,,-15.75,39
+759,oth-unc,Baima,China,,,
+760,oth-unc,Boorama,Somalia,Occurrence,10.05,43.08333333
+761,oth-unc,Changling,China,,,
+762,oth-unc,Dalucao,China,,,
+763,oth-unc,Dongqing,China,,,
+764,oth-unc,Duémé,Benin,,,
+765,oth-unc,Fremont Butte,United States,Occurrence,,
+766,oth-unc,Gangkou,China,,,
+767,oth-unc,Grenville,Canada,,,
+768,oth-unc,Hueyang Mine,China,,,
+769,oth-unc,Jabal Ar Rabuts,Saudi Arabia,Occurrence,25.58333333,41.05
+770,oth-unc,Jabal Awja,Saudi Arabia,Occurrence,25.83333333,41.01666667
+771,oth-unc,Jabal Ebed,Saudi Arabia,Occurrence,25.95,40.88333333
+772,oth-unc,Jabal Kuara,Saudi Arabia,Occurrence,25.78333333,40.91666667
+773,oth-unc,Kavaronge,Congo (Zaire),,,
+774,oth-unc,Kutessiask,Kyrgyzstan,Producer,,
+775,oth-unc,Little Friar Mountain,United States,Occurrence,37.76666667,-79.1
+776,oth-unc,Marhuanta,Venezuela,Occurrence,7.083333333,-63.51666667
+777,oth-unc,Mengwang,China,,,
+778,oth-unc,Moshikeng,China,,29.91666667,121.25
+779,oth-unc,Nanshanxia,China,,,
+780,oth-unc,No. 101,China,,,
+781,oth-unc,Owella Estate (Matale),Sri Lanka,,,
+782,oth-unc,Rodeo de Los Molles,Argentina,Occurrence,,
+783,oth-unc,Ryunan,China,,,
+784,oth-unc,San Antonio,Venezuela,Occurrence,7.743055556,-63.575
+785,oth-unc,Sanlangyan,China,,29.65,112.7833333
+786,oth-unc,Sao Sebastio da Bela Vista,Brazil,Occurrence,,
+787,oth-unc,Saulia,Congo (Zaire),Small producer  (1987),-2.916666667,25.75
+788,oth-unc,Shuitai,China,,,
+789,oth-unc,Sudbury,Canada,,,
+790,oth-unc,Tanmen,China,,,
+791,oth-unc,Taohualashan,China,,39,101.3333333
+792,oth-unc,Umgabab,South Africa,Past small producer,,
+793,oth-unc,Unsan,North Korea,,,
+794,oth-unc,Urumqi,China,,,
+795,oth-unc,Wadi el Sahrm,Egypt,Occurrence,24.73333333,35.01666667
+796,oth-unc,Wuzhou,China,,23.48333333,111.3166667
+797,oth-unc,Xing'an,China,,45.16666667,120.5
+798,oth-unc,Xueshan,China,,,
+799,oth-unc,Ytterby Mine,Sweden,,59.43333333,18.33333333
