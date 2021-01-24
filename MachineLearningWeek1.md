@@ -8,6 +8,8 @@ In the latter stages of this project, additional maps and datasets will be inclu
 
 ## Dataset and Exploratory Analysis
 
+Data was uploaded from two CSV files into Postgres and sqlalchemy and psycopg2 were used to read and write the data from the machine learning model.  In later stages, these databases will be connected in with AWS or similar. 
+
 The main dataset has about 1 million data points from all over the world and is mostly the results of chemical assaying for minerals.  The datapoints were drill core or similar. The complete dataset had many extra features such as datasources, rock type etc.  These features were dropped for this initial machine learning model. 
 The focus of the week one analysis was on the concentrations of other elements and if these could be used to predict high concentrations of the rare earth elements.
 
@@ -94,7 +96,6 @@ Additional work could also be done on re-running the analysis with specific rare
 
 If possible, other datasets will be added to the analysis from geological aerial surveys.
 
-The database will also be tied into the model next week.
 
 
 
