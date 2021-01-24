@@ -9,7 +9,7 @@ First Changes for initial branch commit
 
 ## Background
 The rare earth elements (REE) are a set of seventeen **metallic** elements. These include the fifteen lanthanides on the periodic table plus scandium and yttrium. 
-![rare-earth-elements-periodic-table](../Resources/Graphs/Week1Readme/rare-earth-elements-periodic-table.gif)
+![rare-earth-elements-periodic-table](Resources/Graphs/Week1Readme/rare-earth-elements-periodic-table.gif)
 REEs are necessary components of more than 200 products across a wide range of applications, especially high-tech consumer products, such as cellular telephones, computer hard drives, electric and hybrid vehicles, and flat-screen monitors and televisions. Significant defense applications include electronic displays, guidance systems, lasers, and radar and sonar systems. Although the amount of REEs used in a product may not be a significant part of that product by weight, value, or volume, the REE can be necessary for the device to function. For example, magnets made of REE often represent only a small fraction of the total weight, but without them, the spindle motors and voice coils of desktops and laptops would not be possible.
 ![Resources\Graphs\Week1Readme\uses-of-rare-earth-elements](uses-of-rare-earth-elements.gif)
 ## Problem Identified
