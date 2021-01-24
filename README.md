@@ -36,7 +36,9 @@ We planned to use both regression and classification machine learning algorithm 
 By using regression, we are expecting to see the likelihood of a sample to have REE elements; 
 By using classification, we are expecting to see a binary result as weather the sample **have** or **do not have** REE elements.
 Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs. 
+
 please refer to "MachineLearningWeek1.md" for details.
+
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps. 
 
