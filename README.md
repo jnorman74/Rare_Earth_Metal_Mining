@@ -30,6 +30,7 @@ Further analysis will be applied using Python. Total concentrations of REE eleme
 The distance of two sampling location will be calculated given the longitude and latitude values. 
 ### Database Storage
 We will use PostGres for the database storage.
+Click on link for more detail https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/Database_Week1.md
 ### Machine Learning
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. 
 We planned to use both regression and classification machine learning algorithm to analyze the clean-up dataset. Our training and testing setup is 70% vs. 30%. Column tracking down REE elements will be our target columns. 
