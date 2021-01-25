@@ -41,7 +41,7 @@ By using regression, we are expecting to see the likelihood of a sample to have 
 By using classification, we are expecting to see a binary result as weather the sample **have** or **do not have** REE elements.
 Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs. 
 
-please refer to "MachineLearningWeek1.md" for details.
+please refer to [MachineLearningWeek1.md](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearningWeek1.md) for details.
 
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps. 
