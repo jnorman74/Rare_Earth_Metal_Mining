@@ -32,7 +32,7 @@ The distance of two sampling location will be calculated given the longitude and
 
 We will use PostGres for the database storage.
 
-[Click on link for more detail:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/Database_Week1.md)
+please refer to [Database_Week1.md](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/Database_Week1.md) for details.
 
 ### Machine Learning
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. 
