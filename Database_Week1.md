@@ -22,8 +22,12 @@ The image below shows a sample part of the code the creates all the necessary ta
 
 ![SQL:](Resources/CreateTable_SQL.png)
 
+The following image shows and SQL statement thank joins the Major, Trace, and Computed tables to the Sample table.
+
+![Table Joins:](Resources/TableJoin.PNG)
+
 ### PostgreSQL
 
 The screenshot below shows a sample of the data in the Sample table in PostgreSQL. We will explore writing SQL code to create table joins and query the attributes for mapping and machine learning purposes.
 
-![PostgreSQL:](Resources/PostgreSQL.png)
+![PostgreSQL:](Resources/PostgreSQL.PNG)
