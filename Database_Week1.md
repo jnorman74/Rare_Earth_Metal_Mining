@@ -1,4 +1,4 @@
-## Database Week 1
+## Database Week 1 & 2
 
 ### Data
 
