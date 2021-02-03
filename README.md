@@ -44,5 +44,5 @@ Scores of features will be reviewed since this way we can identify the most comm
 please refer to [MachineLearningWeek1.md](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearningWeek1.md) for details.
 
 ### Dashboard
-Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps. 
+Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps. See below for a dashboard preview:
 
