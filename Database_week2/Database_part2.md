@@ -30,11 +30,11 @@ The following image shows and SQL statement thank joins the Major, Trace, and Co
 ### PostgreSQL
 
 The screenshot below shows a sample of the data in the Sample table in PostgreSQL. We will explore writing SQL code to create table joins and query the attributes for mapping and machine learning purposes.
+![PostgreSQL:](Resources/PostgreSQL.png)
 
 ### ElephantSQL
 
 The PostgresSQL database was moved to ElpehantSQL so that the entire team could work from the same database.  
-![PostgreSQL:](Resources/PostgreSQL.png)
 
 The following code was used in Jupyter lab to access Elephant SQL tables: 
 
