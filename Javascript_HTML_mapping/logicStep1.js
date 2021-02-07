@@ -18,12 +18,16 @@ let baseMaps = {
 };
 
 // Create the mine layer for our map.
-let mine = new L.layerGroup();
+let rare_earth = new L.layerGroup();
+let gold =new L.layerGroup();
+let silver = new L.layerGroup();
 
 // We define an object that contains the overlays.
 // This overlay will be visible all the time.
 let overlays = {
-  Mine: mine
+  Rare_earth: rare_earth,
+  Gold: gold,
+  Silver: silver
 };
 
 
@@ -40,9 +44,12 @@ L.control.layers(baseMaps, overlays).addTo(map);
 
 // Accessing the airport GeoJSON URL
 let mineData = "https://raw.githubusercontent.com/sholkojr/Rare_Earth_Metal_Mining/JaniceWeek2/file.geojson";
+//
 
+//rare earth section 
 // Grabbing our GeoJSON data.
-d3.json(mineData).then(function(data) {
+d3.json(mineData).then(function(data) 
+{
   console.log(data);
   
 // This function returns the style data for each of the earthquakes we plot on
@@ -64,9 +71,9 @@ function styleInfo(feature) {
 // This function determines the color of the circle based on the magnitude of the earthquake.
 function getColor(magnitude) {
   if (magnitude > 0.5) {
-    return "#ea2c2c";
+    return "#7FFF00";
   }
-  return "#98ee00";
+  return "#ea2c2c";
 };
 
 
@@ -92,8 +99,12 @@ L.geoJson(data, {
     onEachFeature: function(feature, layer) {layer.bindPopup("Rare Earth,ppm: " + feature.properties.rare_earth+ "<br>Rare Earth Predict(1=Yes, 0 =No): " + feature.properties.rare_earth_predict  + "<br>Gold: " + feature.properties.au_ppm + "<br>Silver: " + feature.properties.au_ppm);}
 })
 
-.addTo(mine);
+.addTo(rare_earth);
 });
+
+
+rare_earth.addTo(map);
+
 
 // Create a legend control object.
 let legend = L.control({
@@ -104,8 +115,9 @@ legend.onAdd = function() {
   let div = L.DomUtil.create("div", "info legend");
   const magnitudes = [0, 1];
   const colors = [
-    "#98ee00",
-    "#ea2c2c"
+    "#ea2c2c",
+    "#7FFF00"
+    
   ];
     //? Basically an if, condition if true: condition if false after it 
     //i +1 = if the next item exists, then true, at end = false
@@ -113,13 +125,126 @@ legend.onAdd = function() {
     for (var i = 0; i < magnitudes.length; i++) {
       console.log(colors[i]);
       div.innerHTML +=
-        "<i style='background: " + colors[i] + "'></i> " +
-        magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1] + "<br>" : "+");
+        "<i style='background: " + colors[i] + "'></i> " + magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1]  + "<br>" : "+ Positive Occurence");
     }
     return div;
     };
 
 legend.addTo(map);
 
+//gold section 
 
-mine.addTo(map);
+d3.json(mineData).then(function(data) 
+{
+  console.log(data);
+  
+// This function returns the style data for each of the earthquakes we plot on
+// the map. We pass the magnitude of the earthquake into two separate functions
+// to calculate the color and radius.
+function styleInfo(feature) {
+  return {
+
+    opacity: 1,
+    fillOpacity: 1,
+    fillColor: getColor(feature.properties.ag_ppm),
+    color: "#000000",
+    radius: getRadius(feature.properties.ag_ppm),
+    stroke: true,
+    weight: 0.5
+  };
+};
+
+// This function determines the color of the circle based on the magnitude of the earthquake.
+function getColor(magnitude) {
+  if (magnitude > 10) {
+    return "#7FFF00";
+  }
+  return "#ea2c2c";
+};
+
+
+
+
+// This function determines the radius of the earthquake marker based on its magnitude.
+// Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
+function getRadius(magnitude) {
+  if (magnitude <10) {
+    return 1;
+  }
+  return magnitude * 0.01;
+};
+
+
+// Creating a GeoJSON layer with the retrieved data.
+L.geoJson(data, {
+  pointToLayer:function(feature,latlng) {
+    console.log(data);
+    return L.circleMarker(latlng);},
+      // We set the style for each circleMarker using our styleInfo function.
+      style: styleInfo,
+    onEachFeature: function(feature, layer) {layer.bindPopup("Gold,ppm: " + feature.properties.ag_ppm+ "<br>Rare Earth Predict(1=Yes, 0 =No): " + feature.properties.rare_earth_predict);}
+})
+
+.addTo(gold);
+});
+
+gold.addTo(map);
+
+
+//silver section 
+
+d3.json(mineData).then(function(data) 
+{
+  console.log(data);
+  
+// This function returns the style data for each of the earthquakes we plot on
+// the map. We pass the magnitude of the earthquake into two separate functions
+// to calculate the color and radius.
+function styleInfo(feature) {
+  return {
+
+    opacity: 1,
+    fillOpacity: 1,
+    fillColor: getColor(feature.properties.au_ppm),
+    color: "#000000",
+    radius: getRadius(feature.properties.au_ppm),
+    stroke: true,
+    weight: 0.5
+  };
+};
+
+// This function determines the color of the circle based on the magnitude of the earthquake.
+function getColor(magnitude) {
+  if (magnitude > 10) {
+    return "#7FFF00";
+  }
+  return "#ea2c2c";
+};
+
+
+
+
+// This function determines the radius of the earthquake marker based on its magnitude.
+// Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
+function getRadius(magnitude) {
+  if (magnitude <10) {
+    return 1;
+  }
+  return magnitude * 0.00005;
+};
+
+
+// Creating a GeoJSON layer with the retrieved data.
+L.geoJson(data, {
+  pointToLayer:function(feature,latlng) {
+    console.log(data);
+    return L.circleMarker(latlng);},
+      // We set the style for each circleMarker using our styleInfo function.
+      style: styleInfo,
+    onEachFeature: function(feature, layer) {layer.bindPopup("Silver,ppm: " + feature.properties.au_ppm+ "<br>Rare Earth Predict(1=Yes, 0 =No): " + feature.properties.rare_earth_predict);}
+})
+
+.addTo(silver);
+});
+
+silver.addTo(map);
