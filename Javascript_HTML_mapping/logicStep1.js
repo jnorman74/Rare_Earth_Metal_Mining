@@ -17,13 +17,13 @@ let baseMaps = {
   "Satellite": satelliteStreets
 };
 
-// Create the earthquake layer for our map.
-let earthquakes = new L.layerGroup();
+// Create the mine layer for our map.
+let mine = new L.layerGroup();
 
 // We define an object that contains the overlays.
 // This overlay will be visible all the time.
 let overlays = {
-  Earthquakes: earthquakes
+  Mine: mine
 };
 
 
@@ -39,10 +39,10 @@ L.control.layers(baseMaps, overlays).addTo(map);
 
 
 // Accessing the airport GeoJSON URL
-let quakeData = "https://raw.githubusercontent.com/sholkojr/Rare_Earth_Metal_Mining/JaniceWeek2/file.geojson";
+let mineData = "https://raw.githubusercontent.com/sholkojr/Rare_Earth_Metal_Mining/JaniceWeek2/file.geojson";
 
 // Grabbing our GeoJSON data.
-d3.json(quakeData).then(function(data) {
+d3.json(mineData).then(function(data) {
   console.log(data);
   
 // This function returns the style data for each of the earthquakes we plot on
@@ -89,10 +89,10 @@ L.geoJson(data, {
     return L.circleMarker(latlng);},
       // We set the style for each circleMarker using our styleInfo function.
       style: styleInfo,
-    onEachFeature: function(feature, layer) {layer.bindPopup("Rare Earth,ppm: " + feature.properties.rare_earth+ "<br>Rare EArth Predict: " + feature.properties.rare_earth_predict  + "<br>Gold: " + feature.properties.au_ppm + "<br>Silver: " + feature.properties.au_ppm);}
+    onEachFeature: function(feature, layer) {layer.bindPopup("Rare Earth,ppm: " + feature.properties.rare_earth+ "<br>Rare Earth Predict(1=Yes, 0 =No): " + feature.properties.rare_earth_predict  + "<br>Gold: " + feature.properties.au_ppm + "<br>Silver: " + feature.properties.au_ppm);}
 })
 
-.addTo(earthquakes);
+.addTo(mine);
 });
 
 // Create a legend control object.
@@ -122,4 +122,4 @@ legend.onAdd = function() {
 legend.addTo(map);
 
 
-earthquakes.addTo(map);
+mine.addTo(map);
