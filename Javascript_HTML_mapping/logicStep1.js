@@ -230,7 +230,7 @@ function getRadius(magnitude) {
   if (magnitude <10) {
     return 1;
   }
-  return magnitude * 0.00005;
+  return magnitude * 0.0003;
 };
 
 
