@@ -63,7 +63,7 @@ function styleInfo(feature) {
 
 // This function determines the color of the circle based on the magnitude of the earthquake.
 function getColor(magnitude) {
-  if (magnitude < 0.5) {
+  if (magnitude > 0.5) {
     return "#ea2c2c";
   }
   return "#98ee00";
@@ -76,7 +76,7 @@ function getColor(magnitude) {
 // Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
 function getRadius(magnitude) {
   if (magnitude === 0) {
-    return 0.25;
+    return 1;
   }
   return magnitude * 5;
 };
@@ -89,7 +89,7 @@ L.geoJson(data, {
     return L.circleMarker(latlng);},
       // We set the style for each circleMarker using our styleInfo function.
       style: styleInfo,
-    onEachFeature: function(feature, layer) {layer.bindPopup("Rare Earth,ppm: " + feature.properties.rare_earth+ "<br>Rare EArth Predict: " + feature.properties.rare_earth_predict);}
+    onEachFeature: function(feature, layer) {layer.bindPopup("Rare Earth,ppm: " + feature.properties.rare_earth+ "<br>Rare EArth Predict: " + feature.properties.rare_earth_predict  + "<br>Gold: " + feature.properties.au_ppm + "<br>Silver: " + feature.properties.au_ppm);}
 })
 
 .addTo(earthquakes);
@@ -102,13 +102,9 @@ let legend = L.control({
 // Then add all the details for the legend.
 legend.onAdd = function() {
   let div = L.DomUtil.create("div", "info legend");
-  const magnitudes = [0, 1, 2, 3, 4, 5];
+  const magnitudes = [0, 1];
   const colors = [
     "#98ee00",
-    "#d4ee00",
-    "#eecc00",
-    "#ee9c00",
-    "#ea822c",
     "#ea2c2c"
   ];
     //? Basically an if, condition if true: condition if false after it 
