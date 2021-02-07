@@ -1,4 +1,7 @@
+<<<<<<< HEAD:Database_week2/Database_part2.md
 
+=======
+>>>>>>> main:Database_Week1_2.md
 ## Database Week 1 & 2
 
 ### Data
@@ -30,6 +33,7 @@ The following image shows and SQL statement thank joins the Major, Trace, and Co
 ### PostgreSQL
 
 The screenshot below shows a sample of the data in the Sample table in PostgreSQL. We will explore writing SQL code to create table joins and query the attributes for mapping and machine learning purposes.
+<<<<<<< HEAD:Database_week2/Database_part2.md
 ![PostgreSQL:](Resources/PostgreSQL.png)
 
 ### ElephantSQL
@@ -57,3 +61,7 @@ dbConnection.close();
 ### Currently in progress
 
 Jamie is working on an API with flask to directly obtain the data from our database for our final dashboard.  
+=======
+
+![PostgreSQL:](Resources/PostgreSQL.png)
+>>>>>>> main:Database_Week1_2.md

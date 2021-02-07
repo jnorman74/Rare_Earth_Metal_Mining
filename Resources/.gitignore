@@ -1,0 +1,2 @@
+# ignore db password in config.py
+config.py
