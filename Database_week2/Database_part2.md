@@ -53,3 +53,7 @@ sample = pd.read_sql("select * from \"Sample\"", dbConnection)
 
 pd.set_option('display.expand_frame_repr', False);
 dbConnection.close();
+
+### Currently in progress
+
+Jamie is working on an API with flask to directly obtain the data from our database for our final dashboard.  
