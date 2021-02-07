@@ -31,4 +31,25 @@ The following image shows and SQL statement thank joins the Major, Trace, and Co
 
 The screenshot below shows a sample of the data in the Sample table in PostgreSQL. We will explore writing SQL code to create table joins and query the attributes for mapping and machine learning purposes.
 
+### ElephantSQL
+
+The PostgresSQL database was moved to ElpehantSQL so that the entire team could work from the same database.  
 ![PostgreSQL:](Resources/PostgreSQL.png)
+
+The following code was used in Jupyter lab to access Elephant SQL tables: 
+
+conn_string= 'postgres://vvqxjory:password@ziggy.db.elephantsql.com:5432/vvqxjory'
+alchemyEngine=create_engine(conn_string)
+dbConnection = alchemyEngine.connect();
+
+age = pd.read_sql("select * from \"Age\"", dbConnection);
+computed = pd.read_sql("select * from \"Computed\"", dbConnection)
+country = pd.read_sql("select * from \"Country\"", dbConnection)
+isotope = pd.read_sql("select * from \"Isotope\"", dbConnection)
+major = pd.read_sql("select * from \"Major\"", dbConnection)
+rockgroup = pd.read_sql("select * from \"Rockgroup\"", dbConnection)
+trace = pd.read_sql("select * from \"Trace\"", dbConnection)
+sample = pd.read_sql("select * from \"Sample\"", dbConnection)
+
+pd.set_option('display.expand_frame_repr', False);
+dbConnection.close();
