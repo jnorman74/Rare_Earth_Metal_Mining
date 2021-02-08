@@ -1,0 +1,365 @@
+CREATE TABLE "Colorado_ouput" (
+
+
+"sample_id" INT NOT NULL,
+"rare_earth_predict" NUMERIC,
+"latitude" NUMERIC,
+"longitude" NUMERIC,
+"au_ppm" NUMERIC,
+"ag_ppm" NUMERIC,
+"sc_ppm" NUMERIC,
+"y_ppm" NUMERIC,
+"la_ppm" NUMERIC,
+"ce_ppm" NUMERIC,
+"pr_ppm" NUMERIC,
+"nd_ppm" NUMERIC,
+"sm_ppm" NUMERIC,
+"eu_ppm" NUMERIC,
+"gd_ppm" NUMERIC,
+"tb_ppm" NUMERIC,
+"dy_ppm" NUMERIC,
+"ho_ppm" NUMERIC,
+"er_ppm" NUMERIC,
+"tm_ppm" NUMERIC,
+"yb_ppm" NUMERIC,
+"lu_ppm" NUMERIC,
+"totmag" NUMERIC,
+"resmag" NUMERIC,
+"resmagCM4" NUMERIC,
+"qual" NUMERIC,
+"app_K" NUMERIC,
+"app_U" NUMERIC,
+"app_Th" NUMERIC,
+"U_Th_ratio" NUMERIC,
+"U_K_ratio" NUMERIC,
+"Th_K_ratio" NUMERIC,
+"rare_earth" NUMERIC,
+CONSTRAINT "pk_Colorado_output" PRIMARY KEY (
+        "sample_id")
+);
+
+
+
+
+
+
+
+
+
+CREATE TABLE "output_world" (
+
+
+"sample_id" INT NOT NULL,
+"rare_earth_predict" NUMERIC,
+"rare_earth" NUMERIC,
+"latitude" NUMERIC,
+"longitude" NUMERIC,
+"au_ppm" NUMERIC,
+"ag_ppm" NUMERIC,
+"country" VARCHAR,
+"sc_ppm" NUMERIC,
+"y_ppm" NUMERIC,
+"la_ppm" NUMERIC,
+"ce_ppm" NUMERIC,
+"pr_ppm" NUMERIC,
+"nd_ppm" NUMERIC,
+"sm_ppm" NUMERIC,
+"eu_ppm" NUMERIC,
+"gd_ppm" NUMERIC,
+"tb_ppm" NUMERIC,
+"dy_ppm" NUMERIC,
+"ho_ppm" NUMERIC,
+"er_ppm" NUMERIC,
+"tm_ppm" NUMERIC,
+"yb_ppm" NUMERIC,
+"lu_ppm" NUMERIC,
+
+CONSTRAINT "pk_output_world" PRIMARY KEY (
+        "sample_id")
+);
+
+
+
+CREATE TABLE "Colorado" (
+"sample_id" INT NOT NULL,
+"totmag" NUMERIC,	
+"resmag" NUMERIC,
+"resmagCM4" NUMERIC,
+"Distance" NUMBERIC,
+"qual" NUMERIC,
+"app_K" NUMERIC,
+"app_U" NUMERIC,
+"app_Th" NUMERIC,
+"U_Th_ratio" NUMERIC,
+"U_K_ratio" NUMERIC,
+"Th_K_ratio" NUMERIC,
+"total_count" NUMERIC,
+"atmos_BI214" NUMERIC,
+"air_temp" NUMERIC,
+"air_press" NUMERIC,
+CONSTRAINT "pk_Colorado" PRIMARY KEY (
+        "sample_id"
+     )
+);
+
+CREATE TABLE "Sample" (
+    "sample_id" INT   NOT NULL,
+    "sample_name" VARCHAR,
+    "latitude" NUMERIC,
+    "longitude" NUMERIC,
+    "rock_name" VARCHAR,
+    "quartz" NUMERIC,
+    "feldspar" NUMERIC,
+    "lithics" NUMERIC,
+    "p_velocity" NUMERIC,
+    "density_model" NUMERIC,
+    "heat_production" NUMERIC,
+    "heat_production_mass" NUMERIC,
+    "trace_id" INT,
+    "iso_id" INT,
+    "comp_id" INT,
+    "major_id" INT,
+    "rgroup_id" INT,
+    "age_id" INT,
+    "country_id" INT,
+    CONSTRAINT "pk_Sample" PRIMARY KEY (
+        "sample_id"
+     )
+);
+
+CREATE TABLE "Trace" (
+    "trace_id" INT NOT NULL,
+    "f_ppm" NUMERIC,
+    "cl_ppm" NUMERIC,
+    "br__ppm" NUMERIC,
+    "i_ppm" NUMERIC,
+    "h_ppm" NUMERIC,
+    "c_ppm" NUMERIC,
+    "n_ppm" NUMERIC,
+    "p_ppm" NUMERIC,
+    "s_ppm" NUMERIC,
+    "al_ppm" NUMERIC,
+    "as_ppm" NUMERIC,
+    "ag_ppm" NUMERIC,
+    "au_ppm" NUMERIC,
+    "b_ppm" NUMERIC,
+    "ba_ppm" NUMERIC,
+    "be_ppm" NUMERIC,
+    "bi_ppm" NUMERIC,
+    "ca_ppm" NUMERIC,
+    "cd_ppm" NUMERIC,
+    "ce_ppm" NUMERIC,
+    "co_ppm" NUMERIC,
+    "cr_ppm" NUMERIC,
+    "cs_ppm" NUMERIC,
+    "cu_ppm" NUMERIC,
+    "dy_ppm" NUMERIC,
+    "er_ppm" NUMERIC,
+    "eu_ppm" NUMERIC,
+    "fe_ppm" NUMERIC,
+    "ga_ppm" NUMERIC,
+    "gd_ppm" NUMERIC,
+    "ge_ppm" NUMERIC,
+    "hf_ppm" NUMERIC,
+    "hg_ppm" NUMERIC,
+    "ho_ppm" NUMERIC,
+    "in_ppm" NUMERIC,
+    "ir_ppm" NUMERIC,
+    "k_ppm" NUMERIC,
+    "la_ppm" NUMERIC,
+    "li_ppm" NUMERIC,
+    "lu_ppm" NUMERIC,
+    "mg_ppm" NUMERIC,
+    "mn_ppm" NUMERIC,
+    "mo_ppm" NUMERIC,
+    "na_ppm" NUMERIC,
+    "nd_ppm" NUMERIC,
+    "ni_ppm" NUMERIC,
+    "nb_ppm" NUMERIC,
+    "os_ppm" NUMERIC,
+    "pa_ppm" NUMERIC,
+    "pb_ppm" NUMERIC,
+    "pd_ppm" NUMERIC,
+    "pm_ppm" NUMERIC,
+    "pr_ppm" NUMERIC,
+    "pt_ppm" NUMERIC,
+    "rb_ppm" NUMERIC,
+    "re_ppm" NUMERIC,
+    "rh_ppm" NUMERIC,
+    "ru_ppm" NUMERIC,
+    "sb_ppm" NUMERIC,
+    "sc_ppm" NUMERIC,
+    "se_ppm" NUMERIC,
+    "si_ppm" NUMERIC,
+    "sm_ppm" NUMERIC,
+    "sn_ppm" NUMERIC,
+    "sr_ppm" NUMERIC,
+    "ta_ppm" NUMERIC,
+    "tb_ppm" NUMERIC,
+    "te_ppm" NUMERIC,
+    "th_ppm" NUMERIC,
+    "ti_ppm" NUMERIC,
+    "tl_ppm" NUMERIC,
+    "tm_ppm" NUMERIC,
+    "w_ppm" NUMERIC,
+    "v_ppm" NUMERIC,
+    "u_ppm" NUMERIC,
+    "y_ppm" NUMERIC,
+    "yb_ppm" NUMERIC,
+    "zn_ppm" NUMERIC,
+    "zr_ppm" NUMERIC,
+    CONSTRAINT "pk_Trace" PRIMARY KEY (
+        "trace_id"
+     )
+);
+
+CREATE TABLE "Isotope" (
+    "iso_id" INT   NOT NULL,
+    "rb87_sr86" NUMERIC,
+    "sr87_sr86" NUMERIC,
+    "nd143_nd144" NUMERIC,
+    "sm147_nd144" NUMERIC,
+    "lu176_hf177" NUMERIC,
+    "hf176_hf177" NUMERIC,
+    "re187_os186" NUMERIC,
+    "re187_os188" NUMERIC,
+    "os187_os188" NUMERIC,
+    "pb206_pb204" NUMERIC,
+    "pb207_pb204" NUMERIC,
+    "pb208_pb204" NUMERIC,
+    "th232_pb204" NUMERIC,
+    "th232_u238" NUMERIC,
+    "u238_pb204" NUMERIC,
+    "epsilon_hf" NUMERIC,
+    "epsilon_nd" NUMERIC,
+    "epsilon_sr" NUMERIC,
+    CONSTRAINT "pk_Isotope" PRIMARY KEY (
+        "iso_id"
+     )
+);
+
+CREATE TABLE "Computed" (
+    "comp_id" INT NOT NULL,
+    "mg_number NUMERIC,
+    "fe_number NUMERIC,
+    "mali" NUMERIC,
+    "asi" NUMERIC,
+    "maficity" NUMERIC,
+    "cia" NUMERIC,
+    "wip" NUMERIC,
+    "spar" NUMERIC,
+    "qtzindex" NUMERIC,
+    "r1" NUMERIC,
+    "r2" NUMERIC,
+    "rock_type VARCHAR,
+    CONSTRAINT "pk_Computed" PRIMARY KEY (
+        "comp_id"
+     )
+);
+
+CREATE TABLE "Major" (
+    "major_id" INT   NOT NULL,
+    "sio2" NUMERIC,
+    "tio2" NUMERIC,
+    "al2o3" NUMERIC,
+    "cr2o3" NUMERIC,
+    "fe2o3" NUMERIC,
+    "fe2o3_tot" NUMERIC,
+    "feo" NUMERIC,
+    "feo_tot" NUMERIC,
+    "mgo" NUMERIC,
+    "cao" NUMERIC,
+    "mno" NUMERIC,
+    "nio" NUMERIC,
+    "k2o" NUMERIC,
+    "na2o" NUMERIC,
+    "sro" NUMERIC,
+    "p2o5" NUMERIC,
+    "h2o_plus" NUMERIC,
+    "h2o_minus" NUMERIC,
+    "h2o_tot" NUMERIC,
+    "co2" NUMERIC,
+    "so3" NUMERIC,
+    "bao" NUMERIC,
+    "caco3" NUMERIC,
+    "mgco3" NUMERIC,
+    "loi" NUMERIC,
+    CONSTRAINT "pk_Major" PRIMARY KEY (
+        "major_id"
+     )
+);
+
+CREATE TABLE "Rockgroup" (
+    "rgroup_id" INT   NOT NULL,
+    "rock_group" VARCHAR,
+    "rock_origin" VARCHAR,
+    "rock_facies" VARCHAR,
+    CONSTRAINT "pk_Rockgroup" PRIMARY KEY (
+        "rgroup_id"
+     )
+);
+
+CREATE TABLE "Age" (
+    "age_id" INT   NOT NULL,
+    "age_min" NUMERIC,
+    "age" NUMERIC,
+    "age_max" NUMERIC,
+    "age_sd" NUMERIC,
+    "time_period_min" VARCHAR,
+    "time_period" VARCHAR,
+    "time_period_max" VARCHAR,
+    "age_method" VARCHAR,
+    CONSTRAINT "pk_Age" PRIMARY KEY (
+        "age_id"
+     )
+);
+
+CREATE TABLE "Country" (
+    "country_id" INT   NOT NULL,
+    "country" VARCHAR,
+    CONSTRAINT "pk_Country" PRIMARY KEY (
+        "country_id"
+     )
+);
+
+
+CREATE TABLE mines (
+    	rec_id VARCHAR NOT Null,
+    	deptype VARCHAR,
+	depname VARCHAR,
+	country VARCHAR,
+	status VARCHAR,
+	latitude FLOAT,
+	longitude FLOAT
+);
+
+
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_trace_id" FOREIGN KEY("trace_id")
+REFERENCES "Trace" ("trace_id");
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_iso_id" FOREIGN KEY("iso_id")
+REFERENCES "Isotope" ("iso_id");
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_comp_id" FOREIGN KEY("comp_id")
+REFERENCES "Computed" ("comp_id");
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_major_id" FOREIGN KEY("major_id")
+REFERENCES "Major" ("major_id");
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_rgroup_id" FOREIGN KEY("rgroup_id")
+REFERENCES "Rockgroup" ("rgroup_id");
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_age_id" FOREIGN KEY("age_id")
+REFERENCES "Age" ("age_id");
+
+ALTER TABLE "Sample" ADD CONSTRAINT "fk_Sample_country_id" FOREIGN KEY("country_id")
+REFERENCES "Country" ("country_id");
+
+
+SELECT * 
+FROM "Sample" s
+INNER JOIN "Major" m ON (s.major_id = m.major_id)
+INNER JOIN "Trace" t ON (s.trace_id = t.trace_id)
+INNER JOIN "Computed" c ON (s.comp_id = c.comp_id)
+ORDER BY s.sample_id;
