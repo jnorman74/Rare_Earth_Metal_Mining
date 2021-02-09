@@ -1,9 +1,6 @@
 # Rare_Earth_Metal_Mining
 Using analyzed core sample assays to search for potential new sources of rare earth metals!
 
-First Changes for initial branch commit
-
-### Week 1 -Open Project Report
 #### Presented by Team Industrial
 #### Janice Bolen, Stan Holko, Jamie Norman, Ying Zhu
 
