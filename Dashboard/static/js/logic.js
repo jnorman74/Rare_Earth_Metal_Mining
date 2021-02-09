@@ -37,18 +37,18 @@ let baseMaps = {
 };
 
 // Add a layer group.
-let allCafes = new L.LayerGroup();
+let cdnSamples = new L.LayerGroup();
 
 // 2. Add a reference group to the overlays object.
 let overlays = {
-  "Cafes": allCafes,
+  "Samples": cdnSamples,
 };
 
 // Then we add a control to the map that will allow the user to change which layers are visible.
 L.control.layers(baseMaps, overlays).addTo(map);
 
   // Retrieve the GeoJSON data.
-  d3.json("http://localhost:8000/Dashboard/coffee_cafes.geojson").then(function(data) {
+  d3.json("http://127.0.0.1:5000/sample_api/getsamples").then(function(data) {
 
   // This function returns the style data for each of the earthquakes we plot on
     // the map. We pass the magnitude of the earthquake into two separate functions
@@ -66,21 +66,21 @@ L.control.layers(baseMaps, overlays).addTo(map);
      // Creating a GeoJSON layer with the retrieved data.
     L.geoJson(data, {
         // We turn each feature into a circleMarker on the map.
-        pointToLayer: function(feature, latlng) {
+        pointToLayer: function(feature, latiude, lontitude) {
             console.log(data);
-            return L.circleMarker(latlng);
+            return L.circleMarker(latiude, lontitude);
           },
         // We set the style for each circleMarker using our styleInfo function.
       style: styleInfo,
       // We create a popup for each circleMarker to display the magnitude and location of the earthquake
      //  after the marker has been created and styled.
      onEachFeature: function(feature, layer) {
-      layer.bindPopup("Name: " + feature.properties.name+ "<br>Address: " + feature.properties.address);
+      layer.bindPopup("Sample ID: " + feature.properties.sample_id + "<br>Rock Name: " + feature.properties.rock_name);
     }
   
-  }).addTo(allCafes);
+  }).addTo(cdnSamples);
 
   // Then we add the geojson layer to our map.
-  allCafes.addTo(map);
+  cdnSamples.addTo(map);
 
 });  
