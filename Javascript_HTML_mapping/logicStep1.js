@@ -43,8 +43,8 @@ L.control.layers(baseMaps, overlays).addTo(map);
 
 
 // Accessing the airport GeoJSON URL
-let mineData = "https://raw.githubusercontent.com/sholkojr/Rare_Earth_Metal_Mining/JaniceWeek2/file.geojson";
-//
+let mineData = "https://raw.githubusercontent.com/sholkojr/Rare_Earth_Metal_Mining/JaniceWeek2/positive_data.geojson";
+//let mineData = "https://raw.githubusercontent.com/JaniceBgithub/School_District_Analysis/positive_data.geojson"
 
 //rare earth section 
 // Grabbing our GeoJSON data.
@@ -113,19 +113,21 @@ let legend = L.control({
 // Then add all the details for the legend.
 legend.onAdd = function() {
   let div = L.DomUtil.create("div", "info legend");
-  const magnitudes = [0, 1];
+  const magnitudes = ["negative or low occurence", "high occurence"];
   const colors = [
     "#ea2c2c",
-    "#7FFF00"
-    
-  ];
+    "#7FFF00"];
+  
     //? Basically an if, condition if true: condition if false after it 
     //i +1 = if the next item exists, then true, at end = false
     // Looping through our intervals to generate a label with a colored square for each interval.
     for (var i = 0; i < magnitudes.length; i++) {
-      console.log(colors[i]);
       div.innerHTML +=
-        "<i style='background: " + colors[i] + "'></i> " + magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1]  + "<br>" : "+ Positive Occurence");
+
+      "<i style='background: " + colors[i] + "'></i> " + magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1]);
+       // "<i style='background: " + colors[i] + "high'></i> " + magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1]");
+
+        //"<i style='background: " + colors[i] ></i> " + magnitudes[i] + (magnitudes[i + 1] ? "&ndash;" + magnitudes[i + 1]  + "<br>" : "+ Positive Occurence");
     }
     return div;
     };
@@ -171,7 +173,7 @@ function getRadius(magnitude) {
   if (magnitude <10) {
     return 1;
   }
-  return magnitude * 0.01;
+  return magnitude * 0.001;
 };
 
 
@@ -230,7 +232,7 @@ function getRadius(magnitude) {
   if (magnitude <10) {
     return 1;
   }
-  return magnitude * 0.0003;
+  return magnitude * 0.00001;
 };
 
 
