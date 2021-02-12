@@ -13,20 +13,20 @@ We used Pandas to clean the data removing any attributes from the tables that ar
 
 The following image is a screen shot of the relationships between the tables.
 
-![ERD:](Resources/ERD_DB.png)
+![ERD:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/ERD_DB.png)
 
 ### SQL
 
 The image below shows a sample part of the code the creates all the necessary tables in PostgreSQL. This code was generated through setting up the ERD using the website https://app.quickdatabasediagrams.com/#/d/cjLvSq. The full SQL file is in the SQL folder.
 
-![SQL:](Resources/CreateTable_SQL.png)
+![SQL:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/CreateTable_SQL.png)
 
 The following image shows and SQL statement thank joins the Major, Trace, and Computed tables to the Sample table.
 
-![Table Joins:](Resources/TableJoin.png)
+![Table Joins:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/CreateTable_SQL.png)
 
 ### PostgreSQL
 
 The screenshot below shows a sample of the data in the Sample table in PostgreSQL. We will explore writing SQL code to create table joins and query the attributes for mapping and machine learning purposes.
 
-![PostgreSQL:](Resources/PostgreSQL.png)
+![PostgreSQL:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/PGADMIN_tables.png)
