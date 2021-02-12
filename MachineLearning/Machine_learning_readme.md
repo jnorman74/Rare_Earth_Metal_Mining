@@ -101,6 +101,28 @@ The USGS has a compilation of known rare earth deposits with latitude and longit
 
 A similar methodology was followed but also included aerial mapping for Colorado (from USGS).  The maps were processed in GIS software and and matched by latitute and longitude points with the survey information.  Features such as radioactivity and magnetic properties were then added to the dataset.
 
+There were some correlations with rare earths in this dataset so the analysis was continued:
 
+![Co_correlation](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Co_correlation.png)
+
+The accuracy score was 78% for this data - likely less accurate due to the much smaller dataset.
+
+Confusion Matrix:
+
+![CoBothMaps](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/CO_confusion.png)
+
+The Shap plot showed that the chemical components are more important than the aerial features.  Therefore, using aerial information to find rare earths may not be that useful.  Far more useful is the chemical analysis of more common elements.
+
+![Co_Shap](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Shap_Co.png)
+
+Full list of features used by the XGBoost Model:
+
+![Cofeatures](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Feature_Co.png)
+
+# Conclusion 
+
+The XGBoost classification model performed well for predicting rare earth elements presence using the chemical assay of more commonly assayed elements. 
+
+The aerial data was not that useful and not a good way to find rare earths.
 
 
