@@ -12,6 +12,12 @@ A second analysis was completed for Colorado.  This analysis used additional USG
 
 # Rare Earth Analysis - Global 
 
+## Data processing 
+
+The database was in a series of tables - they were loaded into Elephant SQL (PGAdmin) and then joined together for use.  There were a few errors in the data that were fixed by ISO encoding and fillna(0) etc. 
+
+Numerical encoding and grouping was completed for some of the categogorical items such as "rock type".
+
 ## Dataset and Exploratory Analysis 
 
 The main dataset has about 1 million data points from all over the world and is mostly the results of chemical assaying for minerals.  The datapoints were drill core or similar. The complete dataset had many extra features such as datasources, rock type etc. These features were mostly dropped later as the chemical components were far more useful. 
@@ -29,6 +35,11 @@ The dataset of 1 million points did not have complete data for the rare earths. 
 A correlation matrix was completed to determine if there were any correlations between the rare earth elements and other elements. There did appear to be some positive and negative correlations amongst other minerals, so the project appears to be worth pursuing. 
 
 ![Corr_matrix](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Correlation_matrix.png)
+
+
+## Testing and Training Split
+
+This data was split into training and test datasets using SKLearns default test-train-split information.  In this case, this mean splitting our approximate ~100,000 data points into training and test data.  
 
 
 ## Machine Learning Model 
