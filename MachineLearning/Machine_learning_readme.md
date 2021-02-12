@@ -18,7 +18,7 @@ The main dataset has about 1 million data points from all over the world and is 
 
 Exploratory data analysis was completed showing the distributions of individual rare earth elements via histograms.  Note the log distribution. 
 
-![rare_earth_dist1](https://github.com/sholkojr/Rare_Earth_Metal_Mining)
+![rare_earth_dist1](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Individual_elements1.png)
 
 The rare earth elements were added together to create the a "rare earth" value in parts per million. 
 
