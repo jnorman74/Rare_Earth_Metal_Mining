@@ -23,7 +23,7 @@ The image below shows a sample part of the code the creates all the necessary ta
 
 The following image shows and SQL statement thank joins the Major, Trace, and Computed tables to the Sample table.
 
-![Table Joins:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/CreateTable_SQL.png)
+![Table Joins:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/TableJoin.png)
 
 ### PostgreSQL
 
