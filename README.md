@@ -31,9 +31,9 @@ We will use PostgresSQL and Elephant SQL for the database storage. ELephant SQL 
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. We planned to use both regression and classification machine learning algorithm to analyze the clean-up dataset. Our training and testing setup is 70% vs. 30%. Column tracking down REE elements will be our target columns. By using regression, we are expecting to see the likelihood of a sample to have REE elements; By using classification, we are expecting to see a binary result as weather the sample have or do not have REE elements. Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs.
 In week 1, we already developed a very good machine learning model and it functions well. For details, please refer to the following document: 
 
-[filename](path/to/filename.md). ** week 1 machine learning readme **
+[Machine_learning_readme](Rare_Earth_Metal_Mining/MachineLearning/Machine_learning_readme.md).
 
-[filename](path/to/filename.ipynb). ** week 1 machine learning notebook **
+[Rare_earths](Rare_Earth_Metal_Mining/MachineLearning/Jupyter_Notebooks/Rare_earths.ipynb). 
 
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps.
@@ -51,7 +51,11 @@ For details please refer to:
 
 [Database_readme](DataBase/Database_readme.md)
 
+### Machine Learning 
+In this segment, the machine learning code got further refined. Non-numerical features were introduced for analysis. We used encoding process to transfer non-numerical features to numerical features. For details, please refer to the following documents: 
 
+[filename](path/to/filename.md). ** week 2 machine learning readme **
 
-## Machine Learning 
+[filename](path/to/filename.ipynb). ** week 2 machine learning notebook **
 
+### 
