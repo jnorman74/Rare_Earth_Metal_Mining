@@ -136,7 +136,7 @@ L.control.layers(baseMaps, overlays).addTo(map);
       color: "#000000",
       weight: 0.5,
       opacity: 1,
-      fillOpacity: 1,
+      fillOpacity: 0.8,
       stroke: true
     };
   }
@@ -152,21 +152,37 @@ L.control.layers(baseMaps, overlays).addTo(map);
     if (rare_earth > 10000) {
       return "#ee9c00";
     }
-    if (rare_earth > 5000) {
+    if (rare_earth > 1000) {
       return "#eecc00";
     }
-    if (rare_earth > 1000) {
+    if (rare_earth < 1000) {
       return "#d4ee00";
     }
+    if (rare_earth == 0) {
     return "#98ee00"
+    }
   }
 
   // This function determines the radius of the earthquake marker based on the rare earth totals
   function getRadius(rare_earth) {
-    if (rare_earth === 0) {
-      return 1;
+    if (rare_earth > 100000) {
+      return 20;
     }
-    return rare_earth * .00005;
+    if (rare_earth > 50000) {
+      return 15;
+    }
+    if (rare_earth > 10000) {
+      return 10;
+    }
+    if (rare_earth > 999) {
+      return 5;
+    }
+    if (rare_earth < 1000) {
+      return 2.5;
+    }
+    if (rare_earth === 0) {
+    return 1;
+    }
   }
 
     // Creating geoJson layer
@@ -175,7 +191,6 @@ L.control.layers(baseMaps, overlays).addTo(map);
     L.geoJson(geoJSON, {
 
       pointToLayer: function(feature, latlng) {
-        console.log(geoJSON);
         return L.circleMarker(latlng);
       },
     //Set the style for eash circleMarker on the map
