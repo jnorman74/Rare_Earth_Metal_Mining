@@ -1,7 +1,7 @@
 # Rare_Earth_Metal_Mining
 Using analyzed core sample assays to search for potential new sources of rare earth metals!
 
-### Segment 1 -Open Project Report
+## Segment 1 -Open Project Report
 ### Presented by Team Industrial
 ### Janice Bolen, Stan Holko, Jamie Norman, Ying Zhu
 
@@ -25,11 +25,20 @@ Global Whole-Rock Geochemical Database Compilation is a database which lists Geo
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python. Our main table would be “Complete.CSV”. This table covers all the subsets of the “Global Whole-Rock Geochemical Database Compilation”. We will clean up the dataset by dropping of the columns that is irrelevant to our topic, such as coring methods, sample description, datum, depth, data source etc. Some columns tracking down elements/isotope concentrations will also be dropped since they don’t have data with them throughout the entire table. We may need to further clean up the table as we go to the machine learning steps. For example, if we want to study the correlation between major elements and REE elements, we would further drop columns such as trace elements, and vice versa. Columns such as longitude and latitude shall be further dropped as it will induce bias to our model prediction However, we want to have a relatively complete dataset to start with. Further analysis will be applied using Python. Total concentrations of REE elements will be calculated. Samples that do not have any REE elements will be remained in the database as they are still required in the further machine learning steps. The distance of two sampling location will be calculated given the longitude and latitude values.
 
 ### Database Storage
-We will use PostGres for the database storage.
+We will use PostgresSQL and Elephant SQL for the database storage. ELephant SQL allows every team members to get access the same database. By creating a server using PostgresSQL, we can pull database from Elephase SQL. 
 
 ### Machine Learning
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. We planned to use both regression and classification machine learning algorithm to analyze the clean-up dataset. Our training and testing setup is 70% vs. 30%. Column tracking down REE elements will be our target columns. By using regression, we are expecting to see the likelihood of a sample to have REE elements; By using classification, we are expecting to see a binary result as weather the sample have or do not have REE elements. Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs.
-please refer to "MachineLearningWeek1.md" for details.
+In week 1, we already developed a very good machine learning model and it functions well. For details, please refer to the following document: 
+[filename](path/to/filename.md). ** week 1 machine learning readme **
+[filename](path/to/filename.ipynb). ** week 1 machine learning notebook **
 
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps.
+
+
+## Segment 2 - Building Different Pieces of the Project
+### Presented by Team Industrial
+### Janice Bolen, Stan Holko, Jamie Norman, Ying Zhu
+
+
