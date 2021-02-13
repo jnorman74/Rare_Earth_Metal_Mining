@@ -24,8 +24,8 @@ let darkBack = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/til
 
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
-	center: [40.7, -94.5],
-	zoom: 3,
+	center: [45, -30],
+	zoom: 2,
 	layers: [darkBack]
 });
 
@@ -38,10 +38,12 @@ let baseMaps = {
 
 // Add a layer group.
 let cdnSamples = new L.LayerGroup();
+let mlOutputs = new L.LayerGroup();
 
 // 2. Add a reference group to the overlays object.
 let overlays = {
   "Samples": cdnSamples,
+  "ML Outputs": mlOutputs
 };
 
 // Then we add a control to the map that will allow the user to change which layers are visible.
@@ -98,22 +100,67 @@ L.control.layers(baseMaps, overlays).addTo(map);
       }
 
     }).addTo(cdnSamples);
-
-    /* var lat_longs = []
-    data.forEach(d => {
-      lat_longs.push(L.marker(d['latitude'], d['longitude']))
-      console.log(lat_longs) */
-
-      
-  /* let LayerGroup = data.map(d => L.marker(d['latitude'], d['longitude'])
-    .bindPopup(`This point is ${d['sample_name']}`))
-
-  L.layerGroup([LayerGroup])
-      .addLayer(cdnSamples)
-      .addTo(map); */
   
 
   // Then we add the json layer to our map.
   cdnSamples.addTo(map);
+
+  });
+
+  // Retrieve the API JSON data from ElephantSQL DB.
+  d3.json("http://127.0.0.1:5000/api/v1.0/output_positive").then(function(data) {
+
+    // Restructure the JSON data to geoJSON
+    var jsonFeatures = [];
+
+    data.forEach(function(point){
+      var lat = point.latitude;
+      var lon = point.longtitude;
+
+      var feature = {type: 'Feature',
+          properties: point,
+          geometry: {
+              type: 'Point',
+              coordinates: [lon,lat]
+          }
+        };
+
+        jsonFeatures.push(feature);
+        
+    });
+
+     //Style options for the Sample Points
+     function styleInfo(featrure) {
+       return {
+      radius: 8,
+      fillColor: "Blue",
+      color: "Blue",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 2,
+      stroke: true
+    };
+  }
+    var geoJSON = { type: 'FeatureCollection', features: jsonFeatures};
+
+    L.geoJson(geoJSON, {
+
+      pointToLayer: function(feature, latlng) {
+        console.log(geoJSON);
+        return L.circleMarker(latlng);
+      },
+    //Set the style for eash circleMarker on the map
+    style: styleInfo,
+
+    // Create a popup for each circleMarker to display attribute info
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup("<b>Sample ID:</b> " + feature.properties.sample_id + "<br><b>RE Predict: </b>" + feature.properties.rare_earth_predict + "<br><b>Rare Earth Total: </b>" + feature.properties.rare_earth + "<br><b>Gold: </b>" + feature.properties.au_ppm + "<br><b>Silver: </b>" + feature.properties.ag_ppm + "<br><b>Country: </b>" + feature.properties.country);
+      }
+
+    }).addTo(mlOutputs);
+  
+
+  // Then we add the json layer to our map.
+  mlOutputs.addTo(map);
 
   });
