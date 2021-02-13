@@ -31,9 +31,9 @@ We will use PostgresSQL and Elephant SQL for the database storage. ELephant SQL 
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. We planned to use both regression and classification machine learning algorithm to analyze the clean-up dataset. Our training and testing setup is 70% vs. 30%. Column tracking down REE elements will be our target columns. By using regression, we are expecting to see the likelihood of a sample to have REE elements; By using classification, we are expecting to see a binary result as weather the sample have or do not have REE elements. Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs.
 In week 1, we already developed a very good machine learning model and it functions well. For details, please refer to the following document: 
 
-[Machine_learning_readme](Rare_Earth_Metal_Mining/MachineLearning/Machine_learning_readme.md).
+[Machine_learning_readme](Rare_Earth_Metal_Mining/MachineLearning/Machine_learning_readme.md). **readme file**
 
-[Rare_earths](Rare_Earth_Metal_Mining/MachineLearning/Jupyter_Notebooks/Rare_earths.ipynb). 
+[Rare_earths](Rare_Earth_Metal_Mining/MachineLearning/Jupyter_Notebooks/Rare_earths.ipynb). **code**
 
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps.
@@ -58,5 +58,8 @@ In this segment, the machine learning code got further refined. Non-numerical fe
 
 [MachineLearningW2](Rare_Earth_Metal_Mining/MachineLearning/MachineLearningW2.md). **Readme file**
 
-### Dashboard
+We also developed a machine learning code for data specifically located in Corolado State. Please refer to the following code for details: 
+[Colorado_all](MachineLearning/Jupyter_Notebooks/Colorado_all.ipynb). **Code**
 
+### Dashboard
+In this segment, we start to create a dashboard to present our project and results. 
