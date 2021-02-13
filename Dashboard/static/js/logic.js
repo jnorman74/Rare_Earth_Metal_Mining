@@ -72,7 +72,7 @@ L.control.layers(baseMaps, overlays).addTo(map);
     });
 
      //Style options for the Sample Points
-     function styleInfo(featrure) {
+     function styleInfo(feature) {
        return {
       radius: 8,
       fillColor: "Red",
@@ -88,7 +88,6 @@ L.control.layers(baseMaps, overlays).addTo(map);
     L.geoJson(geoJSON, {
 
       pointToLayer: function(feature, latlng) {
-        console.log(geoJSON);
         return L.circleMarker(latlng);
       },
     //Set the style for eash circleMarker on the map
@@ -130,17 +129,47 @@ L.control.layers(baseMaps, overlays).addTo(map);
     });
 
      //Style options for the Sample Points
-     function styleInfo(featrure) {
+     function styleInfo(feature) {
        return {
-      radius: 8,
-      fillColor: "Blue",
-      color: "Blue",
-      weight: 1,
+      radius: getRadius(feature.properties.rare_earth),
+      fillColor: getColor(feature.properties.rare_earth),
+      color: "#000000",
+      weight: 0.5,
       opacity: 1,
-      fillOpacity: 2,
+      fillOpacity: 1,
       stroke: true
     };
   }
+
+  // This function determines the colour of the marker based on the total number of rare earth minerals
+  function getColor(rare_earth) {
+    if (rare_earth > 100000) {
+      return "#ea2c2c";
+    }
+    if (rare_earth > 50000) {
+      return "#ea822c";
+    }
+    if (rare_earth > 10000) {
+      return "#ee9c00";
+    }
+    if (rare_earth > 5000) {
+      return "#eecc00";
+    }
+    if (rare_earth > 1000) {
+      return "#d4ee00";
+    }
+    return "#98ee00"
+  }
+
+  // This function determines the radius of the earthquake marker based on the rare earth totals
+  function getRadius(rare_earth) {
+    if (rare_earth === 0) {
+      return 1;
+    }
+    return rare_earth * .00005;
+  }
+
+    // Creating geoJson layer
     var geoJSON = { type: 'FeatureCollection', features: jsonFeatures};
 
     L.geoJson(geoJSON, {
