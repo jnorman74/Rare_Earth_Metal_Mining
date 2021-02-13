@@ -30,15 +30,28 @@ We will use PostgresSQL and Elephant SQL for the database storage. ELephant SQL 
 ### Machine Learning
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. We planned to use both regression and classification machine learning algorithm to analyze the clean-up dataset. Our training and testing setup is 70% vs. 30%. Column tracking down REE elements will be our target columns. By using regression, we are expecting to see the likelihood of a sample to have REE elements; By using classification, we are expecting to see a binary result as weather the sample have or do not have REE elements. Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs.
 In week 1, we already developed a very good machine learning model and it functions well. For details, please refer to the following document: 
+
 [filename](path/to/filename.md). ** week 1 machine learning readme **
+
 [filename](path/to/filename.ipynb). ** week 1 machine learning notebook **
 
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps.
 
-
+---
 ## Segment 2 - Building Different Pieces of the Project
 ### Presented by Team Industrial
 ### Janice Bolen, Stan Holko, Jamie Norman, Ying Zhu
 
+In this segment, our team continues build up our project through different aspects, including further refining the machine learning process, visulize the results, creating a dashboard to present our results. 
+
+### Database
+In this segment, we start to load our database (multiple csv documents we found online) to Elephant SQL. We created server on Postgres SQL, which allows us to view and inspect the database. We also tied in the database to our codes, such as Falsk, jupyternotebook and vscode. 
+For details please refer to: 
+
+[Database_readme](DataBase/Database_readme.md)
+
+
+
+## Machine Learning 
 
