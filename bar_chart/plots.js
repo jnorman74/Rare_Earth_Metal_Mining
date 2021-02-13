@@ -94,14 +94,25 @@ function buildCharts(sample) {
 
        var data = [
           {
-          x: ['Rare Earth PPM', 'Silver PPM', 'Gold PPM'], 
-          y: [result.properties.rare_earth, result.properties.au_ppm, result.properties.ag_ppm],
+          x: ['Rare Earth PPM', 'Silver', 'Gold', "CE", "DY", "ER", "EU", "GD", "HO", "LA", "LU", "ND", "PR", "SC", "SM", "TB", "TM", "Y", "YB"], 
+          y: [result.properties.rare_earth, result.properties.au_ppm, result.properties.ag_ppm, result.properties.ce_ppm,result.properties.dy_ppm, result.properties.er_ppm,result.properties.eu_ppm,result.properties.gd_ppm,result.properties.ho_ppm,result.properties.la_ppm,result.properties.lu_ppm,result.properties.nd_ppm,result.properties.pr_ppm,result.properties.sc_ppm,result.properties.sm_ppm,result.properties.tb_ppm,result.properties.tm_ppm,result.properties.y_ppm,result.properties.yb_ppm,],
           type: 'bar'
           }     
        ];
 
+       var layout = {
+         title: "<b> Gold, silver and rare earth elements in sample</b>",
+         showlegend: false,
+         yaxis: {
+           title: "parts per million"
+         }, 
+
+         height: 600, 
+         width: 1000
+       };
+
  
-       Plotly.newPlot('bar_chart', data);
+       Plotly.newPlot('bar_chart', data, layout);
 
    
     }
