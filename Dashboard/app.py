@@ -10,17 +10,6 @@ import psycopg2
 from config import db_password
 
 class DbUtils:
-    """ def getSample(self):
-        # Create database string
-        db_string = f'postgres://vvqxjory:{db_password}@ziggy.db.elephantsql.com:5432/vvqxjory'
-        # Create an engine instance
-        engine = create_engine(db_string)
-        # Connect to PostgreSQL server
-        dbConnection = engine.connect()
-        # Read data from PostgreSQL database table and load into a DataFrame instance
-        sample = engine.execute("SELECT * from \"canada_samples\" ", dbConnection)
-        return sample """
-
     def getOutput(self):
         # Create database string
         db_string = f'postgres://vvqxjory:{db_password}@ziggy.db.elephantsql.com:5432/vvqxjory'
@@ -54,6 +43,17 @@ class DbUtils:
         silver = engine.execute("SELECT * from \"silver_country\" ", dbConnection)
         return silver
 
+    def getColorado(self):
+        # Create database string
+        db_string = f'postgres://vvqxjory:{db_password}@ziggy.db.elephantsql.com:5432/vvqxjory'
+        # Create an engine instance
+        engine = create_engine(db_string)
+        # Connect to PostgreSQL server
+        dbConnection = engine.connect()
+        # Read data from PostgreSQL database table and load into a DataFrame instance
+        colorado = engine.execute("SELECT * from \"Colorado_output\" ", dbConnection)
+        return colorado
+
 app = Flask(__name__)
 CORS(app)
 
@@ -61,16 +61,6 @@ CORS(app)
 def welcome():
     return render_template("index.html")
 
-""" @app.route('/api/v1.0/cdn_samples',methods=['GET'])  
-def getSample():  
-    samples = []  
-    dbUtils = DbUtils()  
-    samplesData = dbUtils.getSample()
-    for r in samplesData:
-        a = {"sample_id": r[0], "sample_name": r[1], "latitude": r[2], "longtitude": r[3], "rock_name": r[4], "rock_type": r[5], "country": r[6]}
-        samples.append(a)
-      
-    return jsonify(samples) """
 
 @app.route('/api/v1.0/output_positive',methods=['GET'])  
 def getOutput():  
@@ -104,6 +94,18 @@ def getSilver():
         silver.append(a) 
 
     return jsonify(silver) 
+
+@app.route('/api/v1.0/colorado',methods=['GET'])  
+def getColorado():  
+    colorado = []  
+    dbUtils = DbUtils()  
+    colData = dbUtils.getColorado()
+    for r in colData:
+        # a = {"sample_id": r[0], "latitude": r[2], "longtitude": r[3], "totmag": r[22], "resmag": r[23], "app_K": r[26], "app_U": r[27], "app_Th": r[28], "U_Th_ratio": r[29], "U_K_ratio": r[30], "Th_K_ratio": r[31], "rare_earth": r[32]}
+        a = {"sample_id": r[1], "latitude": r[3], "longtitude": r[4]}
+        colorado.append(a) 
+
+    return jsonify(colorado)
   
 class JSONObject:  
   def __init__( self, dict ):  

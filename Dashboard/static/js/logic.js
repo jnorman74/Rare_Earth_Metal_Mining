@@ -41,74 +41,20 @@ let baseMaps = {
 let mlOutputs = new L.LayerGroup();
 let goldPPM = new L.LayerGroup();
 let silverPPM = new L.LayerGroup();
+let colMagRad = new L.LayerGroup();
 
 // Add a reference group to the overlays object.
 let overlays = {
   // "Samples": cdnSamples,
-  "ML Outputs": mlOutputs,
+  "Rare Earth PPM": mlOutputs,
   "Gold PPM": goldPPM,
-  "Silver PPM": silverPPM
+  "Silver PPM": silverPPM,
+  "Colorado Mag/Rad": colMagRad
 };
 
 // Then we add a control to the map that will allow the user to change which layers are visible.
-L.control.layers(baseMaps, overlays, collapsed=false).addTo(map);
+L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(map);
 
-/*   // Retrieve the API JSON data from ElephantSQL DB.
-  d3.json("http://127.0.0.1:5000/api/v1.0/cdn_samples").then(function(data) {
-
-    // Restructure the JSON data to geoJSON
-    var jsonFeatures = [];
-
-    data.forEach(function(point){
-      var lat = point.latitude;
-      var lon = point.longtitude;
-
-      var feature = {type: 'Feature',
-          properties: point,
-          geometry: {
-              type: 'Point',
-              coordinates: [lon,lat]
-          }
-        };
-
-        jsonFeatures.push(feature);
-        
-    });
-
-     //Style options for the Sample Points
-     function styleInfo(feature) {
-       return {
-      radius: 8,
-      fillColor: "Red",
-      color: "Red",
-      weight: 0.5,
-      opacity: 1,
-      fillOpacity: 0.8,
-      stroke: true
-    };
-  }
-    var geoJSON = { type: 'FeatureCollection', features: jsonFeatures};
-
-    L.geoJson(geoJSON, {
-
-      pointToLayer: function(feature, latlng) {
-        return L.circleMarker(latlng);
-      },
-    //Set the style for eash circleMarker on the map
-    style: styleInfo,
-
-    // Create a popup for each circleMarker to display attribute info
-      onEachFeature: function(feature, layer) {
-        layer.bindPopup("<b>Sample ID:</b> " + feature.properties.sample_id + "<br><b>Sample Name: </b>" + feature.properties.sample_name + "<br><b>Rock Name: </b>" + feature.properties.rock_name + "<br><b>Rock Type: </b>" + feature.properties.rock_type + "<br><b>Country: </b>" + feature.properties.country);
-      }
-
-    }).addTo(cdnSamples);
-  
-
-  // Then we add the json layer to our map.
-  cdnSamples.addTo(map);
-
-  }); */
 
   // Retrieve the API JSON data from ElephantSQL DB.
   d3.json("http://127.0.0.1:5000/api/v1.0/output_positive").then(function(data) {
@@ -276,19 +222,19 @@ L.control.layers(baseMaps, overlays, collapsed=false).addTo(map);
      return 30;
    }
    if (au_ppm >= 10000) {
-     return 20;
+     return 25;
    }
    if (au_ppm >= 1000) {
-     return 15;
+     return 20;
    }
    if (au_ppm >= 100) {
-     return 10;
+     return 15;
    }
    if (au_ppm >= 10) {
-     return 2.5;
+     return 10;
    }
    if (au_ppm < 10) {
-   return 1;
+   return 2.5;
    }
  }
     var geoJSON = { type: 'FeatureCollection', features: jsonFeatures};
@@ -310,7 +256,7 @@ L.control.layers(baseMaps, overlays, collapsed=false).addTo(map);
   
 
   // Then we add the json layer to our map.
-  goldPPM.addTo(map);
+  //goldPPM.addTo(map);
 
   });
 
@@ -417,6 +363,6 @@ d3.json("http://127.0.0.1:5000/api/v1.0/silver").then(function(data) {
   
 
   // Then we add the json layer to our map.
-  silverPPM.addTo(map);
+  //silverPPM.addTo(map);
 
   });
