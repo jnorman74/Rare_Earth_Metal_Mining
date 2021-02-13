@@ -54,7 +54,7 @@ For details please refer to:
 ### Machine Learning 
 In this segment, the machine learning code got further refined. Non-numerical features were introduced for analysis. We used encoding process to transfer non-numerical features to numerical features. For details, please refer to the following documents: 
 
-[Machine Learning Week2](MachineLearning/Machine Learning Week2.ipynb). **Code**
+[MachineLearningW2](MachineLearning/MachineLearningW2.ipynb). **Code**
 
 [MachineLearningW2](Rare_Earth_Metal_Mining/MachineLearning/MachineLearningW2.md). **Readme file**
 
