@@ -39,24 +39,24 @@ A correlation matrix was completed to determine if there were any correlations b
 
 ## Testing and Training Split
 
-This data was split into training and test datasets using SKLearns default test-train-split information.  In this case, this mean splitting our approximate ~100,000 data points into training and test data.  
+This data was split into training and test datasets using SKLearns default test-train-split information.  In this case, this means splitting our ~100,000 data points into training and test data.  
 
 
 ## Machine Learning Model 
 
-This dataset was fairly sparse with many missing values.  The best model to handle a spare data set without additional feature engineering is a tree-based model. A XGBoost model was chosen over random forest because XGboost is better able to handle unbalanced datasets.  In this case, it is more important to look for very high concentrations of rare earths which creates the unbalanced training set.  
+This dataset was fairly sparse with many missing values.  The best model to handle a sparse data set without additional feature engineering is a tree-based model. A XGBoost model was chosen over random forest because XGboost is better able to handle unbalanced datasets.  In this case, it is more important to look for very high concentrations of rare earths which creates the unbalanced training set.  
 
 Additionally, the tree based models are potentially more useful for understanding feature importance versus a neural network model.  The dataset was huge, so dropping parameter was useful to reduce processing time when running the model. 
 
-For the XGBoost model, data normalization is not required and was not completed. Encoding was not required as only numerical distributions of numbers were used for features. 
+For the XGBoost model, data normalization is not required and was not completed. It was determined that the non-numerical values were not the importance features so they were dropped from the rare earth analysis.  The feature encoding was kept in the Colorado file for to add additional data due to the lack of data. 
 
 Two XGBoost (Extreme Gradient Boosting) tree models were attempted.  An XGBoost regression model did not do very well - likely due to the small number of datapoints with high concentrations of rare earths.
 
-A XGBoost classification model was then attempted. The rare earth data was divided into zero and ones based on rare earth concentration.  Initially a cut-off of 100 ppm was used and yielded good results, but little differentiation among high and low rare earth finds.  As the cut-off increased, the model became even more accurate and the important features even more pronounced.  A cut-off of 1000 ppm was used in the last interation with good results. At this cut-off, there were about 1700 positive datapoints and 78,000 negative datapoints.  An accuracy score of 99.5% was achieved with a cut-off of 1000 ppm.
+A XGBoost classification model was then attempted. The rare earth data was divided into zero and ones based on rare earth concentration.  Initially a cut-off of 100 ppm was used and yielded good results, but little differentiation among high and low rare earth finds.  As the cut-off increased, the model became even more accurate and the important features even more pronounced.  A cut-off of 1000 ppm was used in the last interation with good results. At this cut-off with the training set, there were about 1700 positive datapoints and 78,000 negative datapoints.  An accuracy score of 99.5% was achieved with a cut-off of 1000 ppm.
 
 The initial results with XGBoost classification were very good with >95% accuracy.  Initially, default values were used for XGBoost, but when the confusion matrix was considered, the high accuracy score was mainly due to a very good classification of the negative points.  The positive points did not fare as well.
 
-Two parameters were changed - the ppm cut-off point for "positive" rare earth was increased and the "scale_pos_weight" factor was increaesed to 150 (default is 1).  This parameter in XGBoost gives more weighting to the positive data points.  In this case, with an unbalanced dataset, the positive weighting increase improved accuracy score to 98.8%.
+Two parameters were changed - the ppm cut-off point for "positive" rare earth was increased and yield better results. The "scale_pos_weight" factor was increaesed to 150 (default is 1).  This parameter in XGBoost gives more weighting to the positive data points.  In this case, with an unbalanced dataset, the positive weighting increase improved accuracy score to 98.8%.
 
 The final confusion matrix results were: 
 
