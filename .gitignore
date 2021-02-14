@@ -259,7 +259,7 @@ dmypy.json
 .pyre/
 
 # add week 2 document 
-MachineLearning/YZN#otebook/MachineLearningW2.ipynb
+MachineLearning/YZNotebook/MachineLearningW2.ipynb
 MachineLearning/YZNotebook/readme.md
 
 # add dashboard document 
@@ -268,6 +268,6 @@ Rare_Earth_Metal_Mining/Dashboard/config.py
 
 # Adding config.js
 Rare_Earth_Metal_Mining/Dashboard/static/js/config.js
-
+# Adding .DS_Store document 
 Rare_Earth_Metal_Mining/Dashboard/.DS_Store
 
