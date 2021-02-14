@@ -44,19 +44,19 @@ This data was split into training and test datasets using SKLearns default test-
 
 ## Machine Learning Model 
 
-This dataset was fairly sparse with many missing values.  The best model to handle a sparse data set without additional feature engineering is a tree-based model. A XGBoost model was chosen over random forest because XGboost is better able to handle unbalanced datasets.  In this case, it is more important to look for very high concentrations of rare earths which creates the unbalanced training set.An XGboost model is also able to handle unbalanced datasets like our geological data.  
+This dataset was fairly sparse with many missing values.  The best model to handle a sparse data set without additional feature engineering is a tree-based model. A XGBoost model was chosen over random forest because XGboost is better able to handle unbalanced datasets.  In this case, it is more important to look for very high concentrations of rare earths which creates the unbalanced training set.
 
-This references was extremley useful to pick between tree based models:
+This references was useful to pick between tree based models:
 
 <https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb>
 
-Additionally, the tree based models are potentially more useful for understanding feature importance versus a neural network model.  The dataset was huge, so dropping parameter was useful to reduce processing time when running the model. 
+Additionally, the tree based models are more useful for understanding feature importance versus a neural network model.  The dataset was huge, so dropping parameters was useful to reduce processing time when running the model. 
 
 Good comparison of XGboost and tensor flow neural nets:
 
 <https://blog.doit-intl.com/xgboost-or-tensorflow-63f4c92d4377>
 
-For the XGBoost model, data normalization is not required and was not completed. It was determined that the non-numerical values were not the importance features so they were dropped from the rare earth analysis.  The feature encoding was kept in the Colorado file for to add additional data due to the lack of data. 
+For the XGBoost model, data normalization is not required and was not completed. It was determined that the non-numerical values were not the importance features so they were dropped from the rare earth analysis.  The feature encoding was kept in the Colorado file to add additional data to the analysis. 
 
 Two XGBoost (Extreme Gradient Boosting) tree models were attempted.  An XGBoost regression model did not do very well - likely due to the small number of datapoints with high concentrations of rare earths.
 
