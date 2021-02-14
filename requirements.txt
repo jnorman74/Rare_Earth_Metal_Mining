@@ -1,0 +1,146 @@
+Requirements
+
+* a brief introduction of libaries, packages, and modules used by the project
+
+
+Libaries: 
+1. pandas
+pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real-world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis/manipulation tool available in any language. It is already well on its way toward this goal.
+
+pandas were widely applied in codes of this project for dataframe related functions and coding. 
+
+External link for reference: 
+https://pandas.pydata.org/docs/getting_started/overview.html
+
+2. numpy
+NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices. NumPy was created in 2005 by Travis Oliphant. It is an open source project and you can use it freely. NumPy stands for Numerical Python.
+
+Pandas include powerful data analysis tools like DataFrame and Series, whereas the NumPy module offers Arrays
+
+External links for reference: 
+https://medium.com/fintechexplained/why-should-we-use-numpy-c14a4fb03ee9
+https://www.upgrad.com/blog/pandas-vs-numpy/
+
+3.matplotlib
+Matplotlib is a library for making 2D plots of arrays in Python. Although it has its origins in emulating the MATLAB graphics commands, it is independent of MATLAB, and can be used in a Pythonic, object oriented way. Although Matplotlib is written primarily in pure Python, it makes heavy use of NumPy and other extension code to provide good performance even for large arrays.
+
+External links for reference: 
+https://matplotlib.org/stable/users/index.html
+
+4. seaborn
+Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.
+
+Seaborn helps you explore and understand your data. Its plotting functions operate on dataframes and arrays containing whole datasets and internally perform the necessary semantic mapping and statistical aggregation to produce informative plots. Its dataset-oriented, declarative API lets you focus on what the different elements of your plots mean, rather than on the details of how to draw them.
+
+
+External links for reference:
+https://seaborn.pydata.org/introduction.html
+
+5. sqlalchemy
+SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
+
+SQLAlchemy considers the database to be a relational algebra engine, not just a collection of tables. Rows can be selected from not only tables but also joins and other select statements; any of these units can be composed into a larger structure. SQLAlchemy's expression language builds on this concept from its core.
+
+External links for reference:
+https://www.sqlalchemy.org/
+
+6. psycopg2
+Psycopg is the most popular PostgreSQL database adapter for the Python programming language. Its main features are the complete implementation of the Python DB API 2.0 specification and the thread safety (several threads can share the same connection). It was designed for heavily multi-threaded applications that create and destroy lots of cursors and make a large number of concurrent “INSERT”s or “UPDATE”s.
+
+Psycopg 2 is mostly implemented in C as a libpq wrapper, resulting in being both efficient and secure. It features client-side and server-side cursors, asynchronous communication and notifications, “COPY TO/COPY FROM” support. Many Python types are supported out-of-the-box and adapted to matching PostgreSQL data types; adaptation can be extended and customized thanks to a flexible objects adaptation system.
+
+External links for reference:
+https://pypi.org/project/psycopg2/
+
+7. scikit-learn
+Scikit-learn is an open source machine learning library that supports supervised and unsupervised learning. It also provides various tools for model fitting, data preprocessing, model selection and evaluation, and many other utilities.
+
+Modules used in our project includes: 
+train_test_split
+mean_squared_error
+accuracy_score
+confusion_matrix
+
+These modules are used for spliting test, train dataset and evaluate how well the modual has been trained. 
+
+External links for reference: 
+https://scikit-learn.org/stable/user_guide.html
+
+8. XGBoost
+XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
+ 
+External links for reference: 
+https://xgboost.readthedocs.io/en/latest/
+
+9. geopandas
+GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types. Geometric operations are performed by shapely. Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.
+
+The goal of GeoPandas is to make working with geospatial data in python easier. It combines the capabilities of pandas and shapely, providing geospatial operations in pandas and a high-level interface to multiple geometries to shapely. GeoPandas enables you to easily do operations in python that would otherwise require a spatial database such as PostGIS.
+
+External links for reference: 
+https://geopandas.org/
+
+10. JSON
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+
+JSON is built on two structures:
+
+A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.
+An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.
+
+These are universal data structures. Virtually all modern programming languages support them in one form or another. It makes sense that a data format that is interchangeable with programming languages also be based on these structures.
+
+External links for reference: 
+https://www.json.org/json-en.html
+
+11. GEOJSON
+
+GeoJSON is a geospatial data interchange format based on JavaScript Object Notation (JSON). It defines several types of JSON objects and the manner in which they are combined to represent data about geographic features, their properties, and their spatial extents.GeoJSON uses a geographic coordinate reference system, World Geodetic System 1984, and units of decimal degrees.
+
+GeoJSON vs JSON: What are the differences?
+
+GeoJSON: A format for encoding a variety of geographic data structures. It is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on JSON, the JavaScript Object Notation. The features include points, line strings, polygons, and multi-part collections of these types; JSON: A lightweight data-interchange format. JavaScript Object Notation is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language.
+
+External links for reference:
+https://tools.ietf.org/html/rfc7946
+https://stackshare.io/stackups/geojson-vs-json#:~:text=GeoJSON%3A%20A%20format%20for%20encoding%20a%20variety%20of%20geographic%20data%20structures.&text=The%20features%20include%20points%2C%20line,a%20lightweight%20data%2Dinterchange%20format.
+
+13. Flask
+
+Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
+
+Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
+
+External links for references:
+https://palletsprojects.com/p/flask/
+
+14. config
+Config variables are stored in the config.php file at the root of the www directory. Unlike Settings, config options cannot be updated via the admin page and instead must be edited directly by modifying the contents of config.php.
+
+External Links for references: 
+https://newznab.readthedocs.io/en/latest/config/
+
+Packages
+1. descartes
+descartes allows user to use Shapely or GeoJson-like geometric objects as matplotlib paths and patches.
+
+External links for reference: 
+https://pypi.org/project/descartes/#description
+
+2. shapely
+Shapely is a BSD-licensed Python package for manipulation and analysis of planar geometric objects. It is based on the widely deployed GEOS (the engine of PostGIS) and JTS (from which GEOS is ported) libraries. Shapely is not concerned with data formats or coordinate systems, but can be readily integrated with packages that are.
+
+
+External links for reference: 
+https://pypi.org/project/Shapely/
+
+
+Modules
+1. urllib.parse 
+This module defines a standard interface to break Uniform Resource Locator (URL) strings up in components (addressing scheme, network location, path etc.), to combine the components back into a URL string, and to convert a “relative URL” to an absolute URL given a “base URL.”
+
+External links for reference: 
+https://docs.python.org/3/library/urllib.parse.html 
+
+
+
