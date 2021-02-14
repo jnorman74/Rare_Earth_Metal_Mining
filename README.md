@@ -45,5 +45,9 @@ We also developed a machine learning code for data specifically located in Corol
 [Colorado_all](MachineLearning/Jupyter_Notebooks/Colorado_all.ipynb). **Code**
 
 ### Dashboard
-Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps.
+Our major findings will be presented in using JS and API. HTML document will be created. Our findings is presented in words, graphs, and interactive maps.
+
+[DASHBOARD](Rare_Earth_Metal_Mining/Dashboard/DASHBOARD.md). **readme file**
+
+
 
