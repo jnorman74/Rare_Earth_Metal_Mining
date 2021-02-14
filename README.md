@@ -36,9 +36,9 @@ For details of Database please refer to:
 Supervised Machine learning will be used for our project. The database has already been cleaned up and samples “labeled” with weather it contains REE elements or not. We planned to use both regression and classification machine learning algorithm to analyze the clean-up dataset. Our training and testing setup is 70% vs. 30%. Column tracking down REE elements will be our target columns. By using regression, we are expecting to see the likelihood of a sample to have REE elements; By using classification, we are expecting to see a binary result as weather the sample have or do not have REE elements. Scores of features will be reviewed since this way we can identify the most common co-exist elements of REEs.
 We developed a very good machine learning model and it functions well. For details, please refer to the following documents: 
 
-[Machine_learning_readme](Rare_Earth_Metal_Mining/MachineLearning/Machine_learning_readme.md). **readme file**
+[Machine_learning_readme](MachineLearning/Machine_learning_readme.md). **readme file**
 
-[Rare_earths](Rare_Earth_Metal_Mining/MachineLearning/Jupyter_Notebooks/Rare_earths.ipynb). **code**
+[Rare_earths](MachineLearning/Jupyter_Notebooks/Rare_earths.ipynb). **code**
 
 We also developed a machine learning code for data specifically located in Corolado State. Please refer to the following code for details: 
 
