@@ -48,13 +48,13 @@ This dataset was fairly sparse with many missing values.  The best model to hand
 
 This references was extremley useful to pick between tree based models:
 
-![trees](https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb)
+<https://medium.com/analytics-vidhya/what-makes-xgboost-so-extreme-e1544a4433bb>
 
 Additionally, the tree based models are potentially more useful for understanding feature importance versus a neural network model.  The dataset was huge, so dropping parameter was useful to reduce processing time when running the model. 
 
 Good comparison of XGboost and tensor flow neural nets:
 
-![Comparison](https://blog.doit-intl.com/xgboost-or-tensorflow-63f4c92d4377)
+<https://blog.doit-intl.com/xgboost-or-tensorflow-63f4c92d4377>
 
 For the XGBoost model, data normalization is not required and was not completed. It was determined that the non-numerical values were not the importance features so they were dropped from the rare earth analysis.  The feature encoding was kept in the Colorado file for to add additional data due to the lack of data. 
 
