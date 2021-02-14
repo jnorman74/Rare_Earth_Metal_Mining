@@ -27,8 +27,10 @@ The following image shows and SQL statement thank joins the Major, Trace, and Co
 
 ### PostgreSQL
 
-The screenshot below shows a sample of the data in the Sample table in PostgreSQL. The Postgres database was hosted on ElephantSQL so all team members could use the same data.  Data was written to the on-line database at the end of the machine learning model.  
+The screenshot below shows the tables in Elephant SQL. The Postgres database was hosted on ElephantSQL so all team members could use the same data.  Data was written to the on-line database at the end of the machine learning model.  
 
 ![PostgreSQL:](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/DataBase/Resource_database/PGADMIN_tables.png)
 
-The data from ElephantSQL was connected to the front end via Flask.
+The data from ElephantSQL was connected to the front end via Flask.  
+
+The machine learning component of this project read and wrote data directly to Elephant SQL with SQL Alchemy.
