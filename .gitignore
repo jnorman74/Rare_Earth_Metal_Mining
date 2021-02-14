@@ -258,16 +258,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# add week 2 document 
-MachineLearning/YZNotebook/MachineLearningW2.ipynb
-MachineLearning/YZNotebook/readme.md
+
 
 # add dashboard document 
 # Adding config.py file.
-Rare_Earth_Metal_Mining/Dashboard/config.py
+config.py
 
 # Adding config.js
-Rare_Earth_Metal_Mining/Dashboard/static/js/config.js
+/static/js/config.js
 # Adding .DS_Store document 
-Rare_Earth_Metal_Mining/Dashboard/.DS_Store
+.DS_Store
 
