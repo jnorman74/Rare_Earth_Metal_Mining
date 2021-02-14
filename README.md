@@ -47,13 +47,13 @@ We also developed a machine learning code for data specifically located in Corol
 ### Dashboard
 Our major findings will be presented in using JS and API. HTML document will be created. Our findings is presented in words, graphs, and interactive maps.
 
-[DASHBOARD](Rare_Earth_Metal_Mining/Dashboard/DASHBOARD.md). **readme file**
+[DASHBOARD](Dashboard/DASHBOARD.md). **readme file**
 
-[index](Rare_Earth_Metal_Mining/Dashboard/templates/index.html). **index.html**
+[index](Dashboard/templates/index.html). **index.html**
 
 The dash board included a interactive map showing predicted REE, silver (existing), and gold (existing) concentrations on map. 
 
-[app](Rare_Earth_Metal_Mining/Dashboard/app.py). **app.py**
+[app](Dashboard/app.py). **app.py**
 
 
 
