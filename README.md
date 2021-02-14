@@ -42,8 +42,18 @@ We developed a very good machine learning model and it functions well. For detai
 
 We also developed a machine learning code for data specifically located in Corolado State. Please refer to the following code for details: 
 
-[Colorado_all](MachineLearning/Jupyter_Notebooks/Colorado_all.ipynb). **Code**
+[Colorado_all](MachineLearning/Jupyter_Notebooks/Colorado_all.ipynb). **code**
 
 ### Dashboard
-Our major findings will be presented in using JS and API. HTML document will be created. Our findings will be presented in words, graphs, and interactive maps.
+Our major findings will be presented in using JS and API. HTML document will be created. Our findings is presented in words, graphs, and interactive maps.
+
+[DASHBOARD](Rare_Earth_Metal_Mining/Dashboard/DASHBOARD.md). **readme file**
+
+[index](Rare_Earth_Metal_Mining/Dashboard/templates/index.html). **index.html**
+
+The dash board included a interactive map showing predicted REE, silver (existing), and gold (existing) concentrations on map. 
+
+[app](Rare_Earth_Metal_Mining/Dashboard/app.py). **app.py**
+
+
 
