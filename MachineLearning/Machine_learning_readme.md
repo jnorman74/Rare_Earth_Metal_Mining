@@ -62,6 +62,18 @@ The final confusion matrix results were:
 
 ![confusion](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Confusion_Matrix1.png)
 
+## Further Machine Learning Parameter Tuning
+
+Additional parameter tuning was completed - mainly was related to the trade-off in correctly indentifying positive rare earth finds at the expense of incorrectly classifying negative finds as positive.  
+
+For example, eta (step size shrinkage) is used to prevent overfitting.  When adjusted to 0.1 from 0.3, the accuracy decreased to 97%, but shifted some of the rare earth finds into the correct category.
+
+![Confusion2](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/ConfusionMatrix_2.png)
+
+
+
+## Feature Importance
+
 A shap plot was used to determine feature importance.  The red values to the right indicate a positive correlation between high feature values and the rare earth value of 1 (or higher than 1000 ppm).  Red values to the left indicate a negative correlation between the feature and the target.
 
 ![shap_plot](https://github.com/sholkojr/Rare_Earth_Metal_Mining/blob/main/MachineLearning/Resources_Machine_Learning/Shap.png)
