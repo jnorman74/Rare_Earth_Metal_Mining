@@ -14,13 +14,36 @@
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
+    <!-- Plotly JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+            <h1>Finding Rare Earths With Extreme Gradient Boost Machine Learning</h1>
+            <p>By: Janice Bolen, Stan Holko, Jamie Norman and Ying Zhu</p>
+            <p>Use the interactive charts below to explore the dataset</p>
+        </div>
+    </div>
+
     <!-- The div that holds our map -->
     <div id="mapid"></div>
+
+    <!-- The div that holds our sample charts -->
+    <div class="center">
+      <h5>SELECT Sample: 
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+      </h5>
+    </div>
+ 
+   <div class="col-md-5">
+       <div id="bar_chart"></div>
+   </div>
 
     <!-- Leaflet JavaScript -->
     <!-- Make sure you put this AFTER Leaflet's CSS -->
@@ -28,10 +51,16 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
 
+    <!-- Mapbox JavaScript -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+    
     <!-- API key -->
     <script type="text/javascript" src="static/js/config.js"></script>
     
     <!-- Our JavaScript -->
-    <script type="text/javascript" src="static/js/logic.js"></script>
+    <script type="text/javascript" src="static/js/logic_sh.js"></script>
+    <script type="text/javascript" src="static/js/plots.js"></script>
+
+
 </body>
 </html>
