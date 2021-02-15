@@ -41,15 +41,15 @@ let baseMaps = {
 let mlOutputs = new L.LayerGroup();
 let goldPPM = new L.LayerGroup();
 let silverPPM = new L.LayerGroup();
-let colMagRad = new L.LayerGroup();
+// let colMagRad = new L.LayerGroup();
 
 // Add a reference group to the overlays object.
 let overlays = {
   // "Samples": cdnSamples,
   "Rare Earth PPM": mlOutputs,
   "Gold PPM": goldPPM,
-  "Silver PPM": silverPPM,
-  "Colorado Mag/Rad": colMagRad
+  "Silver PPM": silverPPM
+ // "Colorado Mag/Rad": colMagRad
 };
 
 // Then we add a control to the map that will allow the user to change which layers are visible.
