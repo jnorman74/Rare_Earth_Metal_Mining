@@ -120,6 +120,42 @@ Config variables are stored in the config.php file at the root of the www direct
 External Links for references: 
 https://newznab.readthedocs.io/en/latest/config/
 
+15. leaflet
+Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. Weighing just about 39 KB of JS, it has all the mapping features most developers ever need.
+Leaflet is designed with simplicity, performance and usability in mind. It works efficiently across all major desktop and mobile platforms, can be extended with lots of plugins, has a beautiful, easy to use and well-documented API and a simple, readable source code that is a joy to contribute to.
+
+External Links for references: 
+https://leafletjs.com/
+
+16. mapbox
+Mapbox GL JS is a JavaScript library that uses WebGL to render interactive maps from vector tiles and Mapbox styles. It is part of the Mapbox GL ecosystem, which includes Mapbox Mobile, a compatible renderer written in C++ with bindings for desktop and mobile platforms.
+
+External Links for references: 
+https://docs.mapbox.com/mapbox-gl-js/api/
+
+17. D3
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
+
+External Link for refereces: 
+https://d3js.org/
+
+18. Plotly
+Dash is a productive Python framework for building web analytic applications.
+Written on top of Flask, Plotly.js, and React.js, Dash is ideal for building data visualization apps with highly custom user interfaces in pure Python. It's particularly suited for anyone who works with data in Python.
+Through a couple of simple patterns, Dash abstracts away all of the technologies and protocols that are required to build an interactive web-based application. Dash is simple enough that you can bind a user interface around your Python code in an afternoon.
+Dash apps are rendered in the web browser. You can deploy your apps to servers and then share them through URLs. Since Dash apps are viewed in the web browser, Dash is inherently cross-platform and mobile ready.
+
+External Link for reference: 
+https://dash.plotly.com/introduction
+
+19. bootstrap
+Bootstrap is a free front-end framework for faster and easier web development.
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.
+Bootstrap also gives you the ability to easily create responsive designs.
+
+External Link for reference: 
+https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
+
 Packages
 1. descartes
 descartes allows user to use Shapely or GeoJson-like geometric objects as matplotlib paths and patches.
