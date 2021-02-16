@@ -25,7 +25,7 @@ let darkBack = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/til
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
 	center: [45, -30],
-	zoom: 2,
+	zoom: 1,
 	layers: [darkBack]
 });
 
@@ -53,7 +53,7 @@ let overlays = {
 };
 
 // Then we add a control to the map that will allow the user to change which layers are visible.
-L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(map);
+L.control.layers(baseMaps, overlays).addTo(map);
 
 
   // Retrieve the API JSON data from ElephantSQL DB.

@@ -96,7 +96,7 @@ def getSilver():
 
     return jsonify(silver) 
 
-@app.route('/api/v1.0/colorado',methods=['GET'])  
+""" @app.route('/api/v1.0/colorado',methods=['GET'])  
 def getColorado():  
     colorado = []  
     dbUtils = DbUtils()  
@@ -106,7 +106,7 @@ def getColorado():
         # a = {"sample_id": r[0], "latitude": r[2], "longtitude": r[3]}
         colorado.append(a) 
 
-    return jsonify(colorado)
+    return jsonify(colorado) """
   
 class JSONObject:  
   def __init__( self, dict ):  
