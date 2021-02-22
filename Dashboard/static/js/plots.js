@@ -6,7 +6,7 @@ var jsonFeatures = [];
 data_output();
 
 function data_output(){
-  console.log("in data output")
+  
   // Retrieve the API JSON data from ElephantSQL DB.
   d3.json("http://127.0.0.1:5000/api/v1.0/output_positive").then(function(data) {
 
@@ -24,11 +24,7 @@ function data_output(){
        jsonFeatures.push(feature);   
       }
       )
-        //console log for the Sample Points and test the syntax for sample id etc..working!
-        //console.log(jsonFeatures) 
-        //console.log(jsonFeatures[1])
-        //console.log(jsonFeatures[3].properties.au_ppm)
-        console.log(jsonFeatures[4].properties.sample_id)
+
 
           // Grab a reference to the dropdown select element
           var selector = d3.select("#selDataset");
@@ -37,18 +33,11 @@ function data_output(){
 
           for (var i = 1; jsonFeatures.length; i++){
 
-            //console.log(jsonFeatures[i].properties.sample_id)
-
-            //myArray.push(jsonFeatures[i].properties.sample_id)
-
-
           selector
           .append("option")
           .text(jsonFeatures[i].properties.sample_id)
           .property("value", jsonFeatures[i].properties.sample_id);
-          }  
-        //This works and pushes the whole array
-          //console.log(myArray)     
+          }       
                    
   })};
 

@@ -25,8 +25,8 @@ let darkBack = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v10/til
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
 	center: [45, -30],
-	zoom: 2,
-	layers: [darkBack]
+	zoom: 1,
+	layers: [streets]
 });
 
 // Create a base layer that holds all maps.
@@ -53,7 +53,7 @@ let overlays = {
 };
 
 // Then we add a control to the map that will allow the user to change which layers are visible.
-L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(map);
+L.control.layers(baseMaps, overlays).addTo(map);
 
 
   // Retrieve the API JSON data from ElephantSQL DB.
@@ -159,6 +159,38 @@ L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(map);
 
   });
 
+  // Create a legend control object
+  let legend = L.control({
+    position: "bottomright"
+  });
+
+  // Add details for the legend
+  legend.onAdd = function() {
+    let div = L.DomUtil.create("div", "info legend");
+
+    const rare_earth = [700000, 100000, 50000, 10000, 5000, 1000];
+    const colors = [
+      "#a50f15",
+      "#de2d26",
+      "#fb6a4a",
+      "#fc9272",
+      "#fcbba1",
+      "#fee5d9"
+    ];
+
+// loop through intervals to generate a label with a coloured square for each interval
+    for (var i = 0; i < rare_earth.length; i++) {
+      div.innerHTML +=
+        "<i style='background: " + colors[i] + "'></i> " +
+        rare_earth[i] + (rare_earth[i + 1] ? "&ndash;" + rare_earth[i + 1] + "<br>" : "+");
+    }
+    return div;
+
+  };
+
+  // Add legend to the map
+  legend.addTo(map);
+
   // Retrieve the API JSON data from ElephantSQL DB.
   d3.json("http://127.0.0.1:5000/api/v1.0/gold").then(function(data) {
 
@@ -260,6 +292,38 @@ L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(map);
 
   });
 
+// Create a legend control object
+let legend2 = L.control({
+  position: "bottomright"
+});
+
+// Add details for the legend
+legend2.onAdd = function() {
+  let div = L.DomUtil.create("div", "info legend");
+
+  const au_ppm = [500000, 100000, 50000, 10000, 5000, 1000];
+  const colors = [
+    "#993404",
+    "#d95f0e",
+    "#fe9929",
+    "#fec44f",
+    "#fee391",
+    "#ffffd4"
+  ];
+
+// loop through intervals to generate a label with a coloured square for each interval
+  for (var i = 0; i < au_ppm.length; i++) {
+    div.innerHTML +=
+      "<i style='background: " + colors[i] + "'></i> " +
+      au_ppm[i] + (au_ppm[i + 1] ? "&ndash;" + au_ppm[i + 1] + "<br>" : "+");
+  }
+  return div;
+
+};
+
+/* // Add legend to the map
+legend2.addTo(map); */
+
 // Retrieve the API JSON data from ElephantSQL DB.
 d3.json("http://127.0.0.1:5000/api/v1.0/silver").then(function(data) {
 
@@ -322,7 +386,7 @@ d3.json("http://127.0.0.1:5000/api/v1.0/silver").then(function(data) {
 
  // This function determines the radius of the earthquake marker based on the rare earth totals
  function getRadius(ag_ppm) {
-   if (ag_ppm >= 10000) {
+   if (ag_ppm >= 5000) {
      return 25;
    }
    if (ag_ppm >= 500) {
@@ -366,3 +430,49 @@ d3.json("http://127.0.0.1:5000/api/v1.0/silver").then(function(data) {
   //silverPPM.addTo(map);
 
   });
+
+  // Create a legend control object
+let legend3 = L.control({
+  position: "bottomleft"
+});
+
+// Add details for the legend
+legend3.onAdd = function() {
+  let div = L.DomUtil.create("div", "info legend");
+
+  const ag_ppm = [5000, 500, 100, 50, 10, 1];
+  const colors = [
+    "#4a1486",
+    "#6a51a3",
+    "#807dba",
+    "#9e9ac8",
+    "#bcbddc",
+    "#dadaeb"
+  ];
+
+// loop through intervals to generate a label with a coloured square for each interval
+  for (var i = 0; i < ag_ppm.length; i++) {
+    div.innerHTML +=
+      "<i style='background: " + colors[i] + "'></i> " +
+      ag_ppm[i] + (ag_ppm[i + 1] ? "&ndash;" + ag_ppm[i + 1] + "<br>" : "+");
+  }
+  return div;
+
+};
+
+/* // Add legend to the map
+legend3.addTo(map); */
+
+// Add and remove legend from layers
+map.on('overlays', function (eventLayer) {
+  // Switch to the Rare Earth legend...
+     if (eventLayer.name === 'mlOutputs') {
+         map.removeControl(legend1);
+         legend2.addTo(map);}
+         // switch to the Gold legend...
+    else {
+         map.removeControl(legend2);
+         legend1.addTo(map);}
+
+    });
+    
