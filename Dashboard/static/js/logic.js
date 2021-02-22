@@ -52,21 +52,6 @@ let overlays = {
  // "Colorado Mag/Rad": colMagRad
 };
 
-// Add and remove legend from layers
-map.on('overlays', function (eventLayer) {
-  // Switch to the Rare Earth legend...
-     if (eventLayer.name === 'mlOutputs') {
-         this.removeControl(legend1);
-         legend2.addTo(this);}
-         // switch to the Gold legend...
-    else if (eventLayer.name === 'goldPPM') {
-         this.removeControl(legend2);
-         legend1.addTo(this);}
-    else { // Or switch to the Silver legend...
-      this.removeControl(legend3);
-      legend1.addTo(this);
-    }});
-
 // Then we add a control to the map that will allow the user to change which layers are visible.
 L.control.layers(baseMaps, overlays).addTo(map);
 
@@ -336,8 +321,8 @@ legend2.onAdd = function() {
 
 };
 
-// Add legend to the map
-legend2.addTo(map);
+/* // Add legend to the map
+legend2.addTo(map); */
 
 // Retrieve the API JSON data from ElephantSQL DB.
 d3.json("http://127.0.0.1:5000/api/v1.0/silver").then(function(data) {
@@ -475,8 +460,19 @@ legend3.onAdd = function() {
 
 };
 
-// Add legend to the map
-legend3.addTo(map);
+/* // Add legend to the map
+legend3.addTo(map); */
 
+// Add and remove legend from layers
+map.on('overlays', function (eventLayer) {
+  // Switch to the Rare Earth legend...
+     if (eventLayer.name === 'mlOutputs') {
+         map.removeControl(legend1);
+         legend2.addTo(map);}
+         // switch to the Gold legend...
+    else {
+         map.removeControl(legend2);
+         legend1.addTo(map);}
 
+    });
     
